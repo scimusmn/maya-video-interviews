@@ -5,10 +5,12 @@
 
 <div id="video-options">
   {{#each Videos}}
-    <div id="video-{{@index}}" data-video-source="{{File}}">
-      <img src="media/images/{{Image}}" alt="">    
-      <h3>{{Prompt}}</h3>
-      <h4>{{SpanishPrompt}}</h4>      
+    <div class="video-button" id="video-{{@index}}" data-video-source="{{File}}">
+      <img src="media/images/{{Image}}">
+      <div class="video-prompts">
+        <h3>{{Prompt}}</h3>
+        <h4>{{SpanishPrompt}}</h4>
+      </div>
     </div>
   {{/each}}
 </div>
