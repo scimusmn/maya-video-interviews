@@ -1,0 +1,14 @@
+body {
+  height: 768px;
+  width: 1366px;
+}
+#video-options {
+  cursor: pointer;
+}
+.hidden {
+  display: none;
+}
+
+
+
+

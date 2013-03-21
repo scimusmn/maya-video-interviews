@@ -1,0 +1,23 @@
+<!-- Template for video page -->
+
+<h1>{{PageTitle}}</h1>
+<h2 class="spanish"></h2>
+
+<div id="video-options">
+  {{#each Videos}}
+    <div id="video-{{@index}}" data-video-source="{{File}}">
+      <img src="../media/images/posters/{{Image}}" alt="{{Name}}">    
+      <h3>{{Prompt}}</h3>
+      <h4>{{SpanishPrompt}}</h4>      
+    </div>
+  {{/each}}
+</div>
+
+<div class="row hidden">
+  <video id="videoPlayer" class="video-js vjs-default-skin" controls preload="auto" width="1200" height="520" poster="../media/images/posters/{{Videos.0.Image}}">
+    <source src="../media/video/{{Videos.0.File}}" type='video/mp4'>
+  </video>
+</div>
+
+<div class="back hidden">
+</div>
