@@ -1,12 +1,12 @@
 <!-- Template for video page -->
 
 <h1>{{PageTitle}}</h1>
-<h2 class="spanish"></h2>
+<h2>{{PageTitleSpanish}}</h2>
 
 <div id="video-options">
   {{#each Videos}}
     <div id="video-{{@index}}" data-video-source="{{File}}">
-      <img src="../media/images/posters/{{Image}}" alt="{{Name}}">    
+      <img src="media/images/{{Image}}" alt="">    
       <h3>{{Prompt}}</h3>
       <h4>{{SpanishPrompt}}</h4>      
     </div>
