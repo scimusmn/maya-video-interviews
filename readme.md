@@ -13,8 +13,8 @@ No special instructions yet.
 - Fill in actual text content (English and Spanish).
 - Get other color options and possibly adjust colors to match physical objects.
 - Develop a script for deploying to kiosks, something like:
--- clone repo
--- get media content 
--- precompile templates (http://handlebarsjs.com/precompilation.html)
--- minify code
--- run tests
+ - clone repo
+ - get media content 
+ - precompile templates (http://handlebarsjs.com/precompilation.html)
+ - minify code
+ - run tests
