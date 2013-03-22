@@ -13,11 +13,6 @@ function video_kiosk() {
   // Initialize the videojs plugin.
   videoPlayer.ready(function() {
 
-    // Show play button on pause
-    this.addEvent("pause", function() {
-      $('.vjs-big-play-button').css('visibility','visible').show();
-    });
-
     // Set the video source when one is selected
     $videoOption.click(function() {
       var video = $(this).attr('data-video-source');
@@ -27,10 +22,9 @@ function video_kiosk() {
 
       // Be kind, rewind
       videoPlayer.currentTime("0");
-      $('.vjs-big-play-button').css('visibility','visible').show();
 
       // Custom hide/show actions for the Maya design
-      maya_player();
+      maya_player(videoPlayer);
 
     });
 
@@ -41,15 +35,18 @@ function video_kiosk() {
 /*
  * Hide the buttons and show the video player when one's selected.
 */
-var maya_player = function() {
-  // Fade the buttons out; fade the player/back btn in
+var maya_player = function(videoPlayer) {
+  // Fade the buttons out; fade the player/back btn in; play the video
   $('#video-options').fadeOut(500, function() {
-    $('.hidden').fadeIn('fast');
+    $('.hidden').fadeIn('fast', function() {
+      videoPlayer.play();
+    });
   });
 
-  // Back button returns you to the video options
+  // Back button returns you to the video options and stops the video
   $('#back').click(function() {
     $('.hidden').fadeOut(500, function() {
+      videoPlayer.pause();
       $('#video-options').fadeIn('fast');
     });
   });
