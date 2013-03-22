@@ -1,9 +1,16 @@
 body {
   padding: 0;
   margin: 0;
-  font-family: Candara;
+  font-family: 'Candara';
   background: #c6c6b8 url(img/bg_pattern.png) no-repeat;
 }
+@font-face {
+  font-family: 'Candara';
+  src: url('font/Candara.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 #container {
   overflow: hidden;
   height: 768px;
@@ -36,6 +43,7 @@ body {
 .video-prompts {
   padding: 12px 25px 0 25px;
 }
+
 h1 {
   font-size: 36px;
   margin: 36px 0 0;
@@ -61,6 +69,7 @@ h4 {
   font-style: italic;
   font-size: 14px;
 }
+
 #back {
   width: 164px;
   position: absolute;
