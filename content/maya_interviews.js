@@ -9,6 +9,7 @@
  * to match an object name here.
  *
  */
+
 var sites_today = {
   PageTitle : "There are many reasons to investigate and preserve ancient Maya sites",
   PageTitleSpanish : "Hay muchos motivos de investigar y conservar sitios mayas antiguos",
@@ -37,7 +38,5 @@ var sites_today = {
       File : "1115_Chip_022.mp4",
       Image : "video4.png"
     }
-  ],
-  Back : "Back",
-  SpanishBack : "Atrás"
+  ]
 };
