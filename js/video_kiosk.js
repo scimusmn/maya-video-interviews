@@ -42,5 +42,8 @@ function video_kiosk() {
  * Hide the buttons and show the video player when one's selected.
 */
 var maya_player = function() {
-
+  // Fade the buttons out; fade the player/back btn in
+  $('#video-options').fadeOut(500, function() {
+    $('.hidden').fadeIn('fast');
+  });
 }
