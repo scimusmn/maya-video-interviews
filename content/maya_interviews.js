@@ -32,5 +32,5 @@ var data = {
     }
   ],
   Back : "Back",
-  SpanishBack : "Atrasv"
+  SpanishBack : "Atrás"
 };
