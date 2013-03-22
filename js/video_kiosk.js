@@ -18,7 +18,7 @@ function video_kiosk() {
       $('.vjs-big-play-button').css('visibility','visible').show();
     });
 
-    // Toggle main video by clicking on its title or poster image
+    // Set the video source when one is selected
     $videoOption.click(function() {
       var video = $(this).attr('data-video-source');
 
@@ -26,8 +26,11 @@ function video_kiosk() {
       videoPlayer.src(videoPath + video);
 
       // Be kind, rewind
-      videoPlayer.currentTime("0").posterImage.show();
+      videoPlayer.currentTime("0");
       $('.vjs-big-play-button').css('visibility','visible').show();
+
+      // Custom hide/show actions for the Maya design
+      maya_player();
 
     });
 
@@ -35,4 +38,9 @@ function video_kiosk() {
 
 };
 
+/*
+ * Hide the buttons and show the video player when one's selected.
+*/
+var maya_player = function() {
 
+}
