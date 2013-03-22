@@ -17,19 +17,19 @@
   </head>
 
   <body>
-    <div class="container"><!-- Handlebars.js inserts templated content here --></div>
+    <div id="container"><!-- Handlebars.js inserts templated content here --></div>
     <script>
       $.ajax({
         url: 'templates/video.handlebars',
         cache: true,
         success: function (source) {
           var template = Handlebars.compile(source);
-          $('.container').html(template(data));
+          $('#container').html(template(data));
           video_kiosk(); // Extra video functionality from video_kiosk.js
         }
       });
     </script>
 
-    <script src="js/vendor/video-js/video.min.js"></script>
+    <script src="js/vendor/video.min.js"></script>
   </body>
 </html>
