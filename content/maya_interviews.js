@@ -1,8 +1,15 @@
-/*
- * This array is passed to the page template, ../templates/video.handlebars,
- * which renders it into the appropriate HTML elements.
-*/
-var data = {
+/**
+ * Maya interview content:
+ * - Text which appears as page titles on the video buttons,
+ * - Media files - video files and button images.
+ *
+ * Be sure to include both English and Spanish translations!
+ *
+ * To select a content set for a kiosk, set the component_name value in config/config.json
+ * to match an object name here.
+ *
+ */
+var sites_today = {
   PageTitle : "There are many reasons to investigate and preserve ancient Maya sites",
   PageTitleSpanish : "Hay muchos motivos de investigar y conservar sitios mayas antiguos",
   Videos : [
