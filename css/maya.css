@@ -1,9 +1,10 @@
 body {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
   height: 768px;
   width: 1366px;
   font-family: Candara;
-  padding: 0;
-  margin: 0;
   background: #c6c6b8 url(img/bg_pattern.png) no-repeat;
 }
 #video-options {
