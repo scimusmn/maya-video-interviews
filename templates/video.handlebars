@@ -14,10 +14,12 @@
 </div>
 
 <!-- Video player is hidden initially and shown after a video is selected -->
-<div class="row hidden">
+<div class="hidden">
   <video id="videoPlayer" class="video-js vjs-default-skin" preload="auto" width="1200" height="520">
     <source src="../media/video/{{Videos.0.File}}" type='video/mp4'>
   </video>
 </div>
-
-<div class="back hidden"></div>
+<div id="back" class="hidden">
+  <p>{{Back}}</p>
+  <p>{{SpanishBack}}</p>
+</div>
