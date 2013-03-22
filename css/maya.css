@@ -26,7 +26,6 @@ body {
 }
 .video-button {
   cursor: pointer;
-  background: url(img/button_bg.png) no-repeat;
   display: inline-block;
   margin-right: 70px;
   width: 257px;
@@ -81,7 +80,6 @@ h4 {
   text-align: center;
   padding: 10px 0;
   font-size: 20px;
-  background: #8b0b1d;
 }
 #back p {
   margin: 0;
@@ -90,4 +88,17 @@ h4 {
 #back p:last-child {
   font-size: 16px;
   margin-top: 4px;
+}
+
+body.red .video-button {
+  background: url(img/kiosk_red_button_bg.png) no-repeat;
+}
+body.red #back {
+  background: #8b0b1d;
+}
+body.blue .video-button {
+  background: url(img/kiosk_blue_button_bg.png) no-repeat;
+}
+body.blue #back {
+  background: #0c4e8c;
 }
