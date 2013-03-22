@@ -46,4 +46,12 @@ var maya_player = function() {
   $('#video-options').fadeOut(500, function() {
     $('.hidden').fadeIn('fast');
   });
+
+  // Back button returns you to the video options
+  $('#back').click(function() {
+    $('.hidden').fadeOut(500, function() {
+      $('#video-options').fadeIn('fast');
+    });
+  });
+
 }
