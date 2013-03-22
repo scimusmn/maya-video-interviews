@@ -4,7 +4,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="description" content="HTML5 demo page">
     <meta name="viewport" content="width=device-width">
-    <title>Maya videos</title>
+    <title>Maya Interview Questions</title>
 
     <script src="js/vendor/jquery-1.9.1.min.js"></script>
     <script src="js/vendor/handlebars.js"></script>
@@ -19,14 +19,20 @@
   <body>
     <div id="container"><!-- Handlebars.js inserts templated content here --></div>
     <script>
-      $.ajax({
-        url: 'templates/video.handlebars',
-        cache: true,
-        success: function (source) {
-          var template = Handlebars.compile(source);
-          $('#container').html(template(data));
-          video_kiosk(); // Extra video functionality from video_kiosk.js
-        }
+      // Get the kiosk settings from config.json.
+      $.getJSON('config/config.json', function(data) {
+        // Use the component name to select the correct content from maya_interviews.js.
+        var component = eval(data.component_name);
+        $.ajax({
+          url: 'templates/video.handlebars',
+          cache: true,
+          success: function (source) {
+            var template = Handlebars.compile(source);
+            $('#container').html(template(component));
+            // Video player behaviors from video_kiosk.js
+            video_kiosk();
+          }
+        });
       });
     </script>
 
