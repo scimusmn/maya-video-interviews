@@ -13,6 +13,7 @@
 var sites_today = {
   PageTitle : "There are many reasons to investigate and preserve ancient Maya sites",
   PageTitleSpanish : "Hay muchos motivos de investigar y conservar sitios mayas antiguos",
+  Screensaver : "screensaver.mp4",
   Videos : [
     {
       Prompt : "How do lasers help you find undiscovered sites?",
