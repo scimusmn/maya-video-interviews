@@ -22,12 +22,34 @@ $(function () {
 
 });
 
-/*
+/**
  * Start the screensaver after 3 minutes of inactivity.
-*/
+ */
 function timerIncrement() {
   idleTime = idleTime + 1;
   if (idleTime > 2) { // 3 minutes
-    alert('SCREENSAVERED!'); // @TODO - show a video fullscreen
+    // Get player and screensaver
+    var videoPlayer = _V_('videoPlayer');
+    var screensaver = $('video').attr('data-screensaver');
+
+    // Fade out content
+    $('#video-options, h1, h2').fadeOut('fast');
+
+    // Show the video
+    $('.hidden').not('#back').show().addClass('screensaver');
+
+    // Change the source, change the size, start playback
+    videoPlayer.src(screensaver).size(1366, 768).play();
+
+    wakeUp(); // Watch for mousemove, which will reset the page
   }
+}
+
+/**
+ * Clear screensaver
+ */
+function wakeUp() {
+  $('body').mousemove(function (e) {
+    location.reload(); // Refresh the page
+  });
 }
