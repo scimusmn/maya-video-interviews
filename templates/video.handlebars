@@ -3,7 +3,7 @@
 
 <div id="video-options">
   {{#each Videos}}
-    <div class="video-button" id="video-{{@index}}" data-video-source="{{File}}">
+    <div class="video-button" id="video-{{@index}}" data-video-source="{{../MediaFolder}}/{{File}}">
       <img src="media/images/{{../MediaFolder}}/{{Image}}">
       <div class="video-prompts">
         <h3>{{Prompt}}</h3>
@@ -16,7 +16,7 @@
 <!-- Video player is hidden initially and shown after a video is selected -->
 <div class="hidden">
   <video id="videoPlayer" class="video-js vjs-default-skin" preload="auto" width="1200" height="520">
-    <source src="../media/video/{{MediaFolder}}/{{Videos.0.File}}" type='video/mp4'>
+    <source src="media/video/{{MediaFolder}}/{{Videos.0.File}}" type='video/mp4'>
   </video>
 </div>
 <div id="back" class="hidden">
