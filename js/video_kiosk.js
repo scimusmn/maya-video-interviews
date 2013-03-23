@@ -20,9 +20,6 @@ function video_kiosk() {
       // Change the video source
       videoPlayer.src(videoPath + video);
 
-      // Be kind, rewind
-      videoPlayer.currentTime("0");
-
       // Custom hide/show actions for the Maya design
       maya_player(videoPlayer);
 
@@ -47,6 +44,7 @@ var maya_player = function(videoPlayer) {
   $('#back').click(function() {
     $('.hidden').fadeOut(500, function() {
       videoPlayer.pause();
+      videoPlayer.currentTime('0'); // Be kind, rewind
       $('#video-options').fadeIn('fast');
     });
   });
