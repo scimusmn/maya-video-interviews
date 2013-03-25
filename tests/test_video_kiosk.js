@@ -15,10 +15,12 @@ test("config", function() {
   expect(3);
 
   var url = '../config/config.json';
+  stop();
   $.getJSON(url, function(data) {
     ok(data, 'data is returned from the server'); // Data exists
     ok(data.color); // Color parameter exists
     ok(data.component_name); // Component name exists
+    start();
   });
 
 });
