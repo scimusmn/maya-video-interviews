@@ -13,6 +13,9 @@
  */
 test("template load", function() {
 
+  // Expect 3 assertions
+  expect(3);
+
   // Check for empty h1, h2, h3, h4 and p tags
   var content = $('h1, h2, h3, h4, p').text();
   notEqual(content, '');
