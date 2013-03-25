@@ -12,12 +12,13 @@
  * Test: Check config file.
  */
 test("config", function() {
-  expect(2);
+  expect(3);
 
   var url = '../config/config.json';
   $.getJSON(url, function(data) {
     ok(data, 'data is returned from the server'); // Data exists
-    equal(data.length, 2); // Data has 2 parameters
+    ok(data.color); // Color parameter exists
+    ok(data.component_name); // Component name exists
   });
 
 });
