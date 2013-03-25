@@ -6,7 +6,7 @@ module.exports = function(grunt) {
     uglify: {
         kiosk_scripts: {
           files: {
-            'js/maya_interviews.min.js': [
+            'build/js/maya_interviews.min.js': [
               'libs/jquery-1.9.1.min.js',
               'libs/handlebars.js',
               'libs/video.min.js',

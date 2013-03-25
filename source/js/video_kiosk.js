@@ -8,7 +8,7 @@ function video_kiosk() {
   var $videoOption = $('.video-button'),
       videoPlayer = _V_('videoPlayer'),
       // Path is relative to the kiosk page
-      videoPath = 'media/video/';
+      videoPath = '../assets/video/';
 
   // Initialize the videojs plugin.
   videoPlayer.ready(function() {
