@@ -9,12 +9,25 @@
 */
 
 /**
+ * Test: Check config file.
+ */
+test("config", function() {
+  expect(2);
+
+  var url = '../config/config.json';
+  $.getJSON(url, function(data) {
+    ok(data, 'data is returned from the server'); // Data exists
+    equal(data.length, 2); // Data has 2 parameters
+  });
+
+});
+
+/**
  * Test: Check if content has been loaded into the template.
  */
 test("template load", function() {
 
-  // Expect 3 assertions
-  expect(3);
+  expect(3); // Expect 3 assertions
 
   // Check for empty h1, h2, h3, h4 and p tags
   var content = $('h1, h2, h3, h4, p').text();
