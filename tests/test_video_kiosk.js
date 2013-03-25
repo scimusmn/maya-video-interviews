@@ -15,13 +15,3 @@ test("kiosk init", function() {
   });
 
 });
-
-/**
- * Test: Check for content
- */
-test("content", function() {
-
- // expect();
-
-
-});
