@@ -6,20 +6,24 @@
  */
 
 // Get the kiosk settings from config.json.
-$.getJSON('config/config.json', function(data) {
+var kiosk_init = function(url, template) {
 
-  // Use the color setting to set a body class, used for styling
-  $('body').addClass(data.color);
+  $.getJSON(url, function(data) {
 
-  // Use the component name to select the correct content from maya_interviews.js.
-  var component = eval(data.component_name);
-  $.ajax({
-    url: 'templates/video.handlebars',
-    cache: true,
-    success: function (source) {
-      var template = Handlebars.compile(source);
-      $('#container').html(template(component));
-      video_kiosk();
-    }
+    // Use the color setting to set a body class, used for styling
+    $('body').addClass(data.color);
+
+    // Use the component name to select the correct content from maya_interviews.js.
+    var component = eval(data.component_name);
+    $.ajax({
+      url: template,
+      cache: true,
+      success: function (source) {
+        var template = Handlebars.compile(source);
+        $('#container').html(template(component));
+        video_kiosk();
+      }
+    });
   });
-});
+
+}
