@@ -17,9 +17,9 @@ test("config", function() {
   var url = '../config/config.json';
   stop();
   $.getJSON(url, function(data) {
-    ok(data, 'data is returned from the server'); // Data exists
-    ok(data.color); // Color parameter exists
-    ok(data.component_name); // Component name exists
+    ok(data, 'Data is returned from the server'); // Data exists
+    ok(data.color, 'Color: ' + data.color); // Color parameter exists
+    ok(data.component_name, 'Component: ' + data.component_name); // Component name exists
     start();
   });
 
