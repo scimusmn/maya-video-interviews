@@ -9,4 +9,13 @@
  *   5. Does the page reload if you move the mouse when the screensaver's running?
 */
 
-
+/**
+ * Test: Check if content has been loaded into the template.
+ */
+test("template load", function() {
+  var content = $('h1, h2, h3, h4, p').text();
+  notEqual(content, '');
+  // Check for empty h1, h2, h3, h4 and p tagis
+  // Make sure image has src
+  // Make sure video has src
+});
