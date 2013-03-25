@@ -9,12 +9,12 @@ No special instructions yet.
 ## Roadmap
 - ~~Develop a config file to set the kiosk's color scheme and content.~~
 - ~~Develop screensaver functionality.~~
-- Develop some unit tests, possibly using http://qunitjs.com/.
+- ~~Develop some unit tests, possibly using http://qunitjs.com/~~
 - Fill in actual text content (English and Spanish).
 - Get other color options and possibly adjust colors to match physical objects.
-- Develop a script for deploying to kiosks, something like:
- - clone repo
- - get media content 
- - precompile templates (http://handlebarsjs.com/precompilation.html)
- - minify code
+- Look into Selenium scripts for more tests.
+- Set up Grunt.js for deploying to kiosks, something like:
+ - create directories for media content 
+ - precompile Handlebars templates
+ - ~~minify code~~
  - run tests
