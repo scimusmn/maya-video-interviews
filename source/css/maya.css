@@ -2,11 +2,11 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Candara';
-  background: #c6c6b8 url(img/bg_pattern.png) no-repeat;
+  background: #c6c6b8 url(../../assets/template/img/bg_pattern.png) no-repeat;
 }
 @font-face {
   font-family: 'Candara';
-  src: url('font/Candara.ttf') format('truetype');
+  src: url('../../assets/template/font/Candara.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -96,7 +96,7 @@ h4 {
 
 /* Component-specific themes */
 body.sites_today .video-button {
-  background: url(img/kiosk_red_button_bg.png) no-repeat;
+  background: url(../../assets/template/img/kiosk_red_button_bg.png) no-repeat;
 }
 body.sites_today #back {
   background: #8b0b1d;
@@ -104,7 +104,7 @@ body.sites_today #back {
 
 /* Just for testing - can remove when other legit ones are ready */
 body.blue .video-button {
-  background: url(img/kiosk_blue_button_bg.png) no-repeat;
+  background: url(../../assets/template/img/kiosk_blue_button_bg.png) no-repeat;
 }
 body.blue #back {
   background: #0c4e8c;

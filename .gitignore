@@ -1,4 +1,5 @@
-assets/
+assets/images/
+assets/video/
 config/config.json
 node_modules/
 npm-debug.log
