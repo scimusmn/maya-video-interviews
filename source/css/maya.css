@@ -94,12 +94,15 @@ h4 {
   margin-top: -40px;
 }
 
-body.red .video-button {
+/* Component-specific themes */
+body.sites_today .video-button {
   background: url(img/kiosk_red_button_bg.png) no-repeat;
 }
-body.red #back {
+body.sites_today #back {
   background: #8b0b1d;
 }
+
+/* Just for testing - can remove when other legit ones are ready */
 body.blue .video-button {
   background: url(img/kiosk_blue_button_bg.png) no-repeat;
 }

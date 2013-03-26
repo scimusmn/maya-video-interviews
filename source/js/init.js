@@ -11,7 +11,7 @@ var kiosk_init = function(url, template) {
   $.getJSON(url, function(data) {
 
     // Use the color setting to set a body class, used for styling
-    $('body').addClass(data.color);
+    $('body').addClass(data.component_name);
 
     // Use the component name to select the correct content from maya_interviews.js.
     var component = eval(data.component_name);
