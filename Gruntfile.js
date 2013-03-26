@@ -10,20 +10,30 @@ module.exports = function(grunt) {
               'libs/jquery-1.9.1.min.js',
               'libs/handlebars.js',
               'libs/video.min.js',
-              'src/js/init.js',
-              'src/js/video_kiosk.js',
-              'src/content/maya_interviews.js',
-              'src/js/screensaver.js'
+              'source/js/init.js',
+              'source/js/video_kiosk.js',
+              'source/content/maya_interviews.js',
+              'source/js/screensaver.js'
             ]
           }
         }
+    },
+    cssmin: {
+      compress: {
+        files: {
+          'build/css/maya_interviews.min.css': ['source/css/maya.css', 'source/css/video-js.min.css']
+        }
+      }
     }
   });
 
   // Load the plugin that provides the "uglify" task.
   grunt.loadNpmTasks('grunt-contrib-uglify');
 
+  // CSSMin plugin
+  grunt.loadNpmTasks('grunt-contrib-cssmin');
+
   // Default task(s).
-  grunt.registerTask('default', ['uglify']);
+  grunt.registerTask('default', ['uglify', 'cssmin']);
 
 };
