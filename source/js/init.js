@@ -1,29 +1,31 @@
 /**
  * Initialize the kiosk start page.
  * - Load and read the config file.
- * - Run handlebars.compile to insert content into templates.
+ * - Load precompiled handlebars template.
  * - Load video playback behaviors from video_kiosk.js.
  */
 
-// Get the kiosk settings from config.json.
-var kiosk_init = function(url, template) {
+var kiosk_init = function() {
 
-  $.getJSON(url, function(data) {
+  // Path to the config file
+  var config = '../config/config.json';
 
-    // Use the color setting to set a body class, used for styling
+  // Read the config file
+  $.getJSON(config, function(data) {
+
+    // Set a body class with the component name
     $('body').addClass(data.component_name);
 
-    // Use the component name to select the correct content from maya_interviews.js.
-    var component = eval(data.component_name);
-    $.ajax({
-      url: template,
-      cache: true,
-      success: function (source) {
-        var template = Handlebars.compile(source);
-        $('#container').html(template(component));
-        video_kiosk();
-      }
-    });
+    // Load the component's content from maya_interviews.js
+    // Load the precompiled template, and output these into #container
+    var component = eval(data.component_name),
+        template = Handlebars.templates['video'],
+        html = template(component);
+    $('#container').html(html);
+
+    // Video behaviors
+    video_kiosk();
+
   });
 
 }

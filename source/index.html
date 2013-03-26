@@ -11,7 +11,8 @@
   <body>
     <div id="container"></div>
     <script src="../libs/jquery-1.9.1.min.js"></script>
-    <script src="../libs/handlebars.js"></script>
+    <script src="../libs/handlebars.runtime.js"></script>
+    <script src="../build/templates/video.min.handlebars"></script>
 
     <script src="js/video_kiosk.js"></script>
     <script src="js/init.js"></script>
@@ -19,6 +20,6 @@
 
     <script src="../libs/video.min.js"></script>
     <script src="js/screensaver.js"></script>
-    <script>kiosk_init('../config/config.json', '../build/templates/video.handlebars');</script>
+    <script>kiosk_init();</script>
   </body>
 </html>

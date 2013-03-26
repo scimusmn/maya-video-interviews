@@ -33,6 +33,9 @@ module.exports = function(grunt) {
   // CSSMin plugin
   grunt.loadNpmTasks('grunt-contrib-cssmin');
 
+  // Handlebars compiler plugin
+  grunt.loadNpmTasks('grunt-contrib-handlebars');
+
   // Default task(s).
   grunt.registerTask('default', ['uglify', 'cssmin']);
 
