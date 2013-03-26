@@ -13,13 +13,13 @@ Like this:
 
 - Assets
  - video
-  - sites_today
-  - weaving
-  - (etc)
+  * sites_today
+  * weaving
+  * (etc)
  - images
-  - sites_today
-  - weaving
-  - (etc)
+  * sites_today
+  * weaving
+  * (etc)
 
 Check out the sites_today directories as an example - we don't have content for the others yet.
 
