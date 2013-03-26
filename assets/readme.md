@@ -12,14 +12,14 @@ Use the same name as what's set in the config file and content variable.
 Like this:
 
 - Assets
- - video
-  * sites_today
-  * weaving
-  * (etc)
- - images
-  * sites_today
-  * weaving
-  * (etc)
+  - video
+    * sites_today
+    * weaving
+    * (etc)
+  - images
+    * sites_today
+    * weaving
+    * (etc)
 
 Check out the sites_today directories as an example - we don't have content for the others yet.
 
