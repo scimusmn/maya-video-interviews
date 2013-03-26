@@ -8,7 +8,7 @@ module.exports = function(grunt) {
           files: {
             'build/js/maya_interviews.min.js': [
               'libs/jquery-1.9.1.min.js',
-              'libs/handlebars.js',
+              'libs/handlebars.runtime.js',
               'libs/video.min.js',
               'source/js/init.js',
               'source/js/video_kiosk.js',
