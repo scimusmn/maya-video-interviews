@@ -42,9 +42,8 @@ var kiosk_init = function(compile) {
           html = template(component);
 
       // Output markup into container div, then start video functionality
-      $('#container').html(html, function() {
-        video_kiosk();
-      });
+      $('#container').html(html);
+      video_kiosk();
 
     }
 
