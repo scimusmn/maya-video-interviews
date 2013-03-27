@@ -3,6 +3,16 @@ module.exports = function(grunt) {
   // Project configuration.
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
+      handlebars: {
+        options: {
+          namespace: 'videos'
+        },
+        compile: {
+          files: {
+            'build/templates/videos.js': 'source/templates/videos.handlebars',
+          }
+        }
+    },
     uglify: {
         kiosk_scripts: {
           files: {
@@ -37,6 +47,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-handlebars');
 
   // Default task(s).
-  grunt.registerTask('default', ['uglify', 'cssmin']);
+  grunt.registerTask('default', ['handlebars', 'uglify', 'cssmin']);
 
 };

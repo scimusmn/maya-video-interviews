@@ -26,7 +26,7 @@ var kiosk_init = function(compile) {
 
       // If the templates aren't compiled, run them through the compiler
       $.ajax({
-        url: 'templates/video.handlebars',
+        url: 'templates/videos.handlebars',
         cache: true,
         success: function (source) {
           var template = Handlebars.compile(source);
@@ -38,15 +38,13 @@ var kiosk_init = function(compile) {
 
     } else {
       // Precompiled template just needs to be output into the DOM
-      var template = Handlebars.templates['video'],
-          html = template(component);
+      var html = Handlebars.template['videos'](component);
 
       // Output markup into container div, then start video functionality
       $('#container').html(html);
       video_kiosk();
 
     }
-
 
   });
 

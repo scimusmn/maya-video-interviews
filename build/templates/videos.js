@@ -1,6 +1,6 @@
-(function() {
-  var template = Handlebars.template, templates = Handlebars.templates = Handlebars.templates || {};
-templates['video'] = template(function (Handlebars,depth0,helpers,partials,data) {
+this["videos"] = this["videos"] || {};
+
+this["videos"]["source/templates/videos.handlebars"] = Handlebars.template(function (Handlebars,depth0,helpers,partials,data) {
   this.compilerInfo = [2,'>= 1.0.0-rc.3'];
 helpers = helpers || Handlebars.helpers; data = data || {};
   var buffer = "", stack1, functionType="function", escapeExpression=this.escapeExpression, self=this;
@@ -62,4 +62,3 @@ function program1(depth0,data,depth1) {
     + "\" type='video/mp4'>\n  </video>\n</div>\n<div id=\"back\" class=\"hidden\">\n  <p>Back</p>\n  <p>Atrás</p>\n</div>\n";
   return buffer;
   });
-})();
