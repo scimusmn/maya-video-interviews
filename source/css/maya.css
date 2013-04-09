@@ -163,12 +163,12 @@ body.sites_today #back {
 body.ballgame,
 body.weaving,
 body.agriculture {
-  background: #c6c6b8 url(../../assets/template/img/0515_bg_pattern.png) no-repeat;
+  background: #e3dec5 url(../../assets/template/img/0604-1115-1117_bg_pattern.png) no-repeat;
 }
 body.ballgame .video-button,
 body.weaving .video-button,
 body.agriculture .video-button {
-  background: url(../../assets/template/img/0515_button.png) no-repeat;
+  background: url(../../assets/template/img/0604-1115-1117_button.png) no-repeat;
 }
 body.ballgame h1,
 body.weaving h1,
@@ -176,7 +176,7 @@ body.agriculture h1,
 body.ballgame h2,
 body.weaving h2,
 body.agriculture h2 {
-  color: #522523;
+  color: #564b22;
 }
 body.ballgame h2,
 body.weaving h2,
@@ -192,10 +192,33 @@ body.agriculture h4,
 body.ballgame #back,
 body.weaving #back,
 body.agriculture #back {
-  color: #efe9e5;
+  color: #f2ebc8;
 }
 body.ballgame #back,
 body.weaving #back,
 body.agriculture #back {
+  background: #71632d;
+}
+
+/* 0807: HUMAN REMAINS */
+body.human_remains {
+  background: #4e4039 url(../../assets/template/img/0807_bg_pattern.png) no-repeat;
+}
+body.human_remains .video-button {
+  background: url(../../assets/template/img/0807_button.png) no-repeat;
+}
+body.human_remains h1,
+body.human_remains h2 {
+  color: #a4c492;
+}
+body.human_remains h2 {
+  opacity: .75;
+}
+body.human_remains h3,
+body.human_remains h4 {
+  color: #39322f;
+}
+body.human_remains #back {
   background: #8b0b1d;
+  color: #efe9e5;
 }
