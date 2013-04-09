@@ -2,7 +2,6 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Candara';
-  background: #c6c6b8 url(../../assets/template/img/bg_pattern.png) no-repeat;
 }
 @font-face {
   font-family: 'Candara';
@@ -10,7 +9,6 @@ body {
   font-weight: normal;
   font-style: normal;
 }
-
 #container {
   overflow: hidden;
   height: 768px;
@@ -42,7 +40,6 @@ body {
 .video-prompts {
   padding: 12px 25px 0 25px;
 }
-
 h1 {
   font-size: 36px;
   margin: 36px 0 0;
@@ -52,13 +49,11 @@ h1, h2 {
   text-align: center;
 }
 h2 {
-  color: #666660;
   font-size: 28px;
   margin: 0;
   padding: 0;
 }
 h3, h4 {
-  color: #FFFFFF;
   font-weight: normal;
 }
 h3 {
@@ -68,13 +63,11 @@ h4 {
   font-style: italic;
   font-size: 14px;
 }
-
 #back {
   width: 164px;
   position: absolute;
   bottom: 0;
   left: 560px;
-  color: #FFFFFF;
   cursor: pointer;
   box-shadow: 0 0 8px #666;
   text-align: center;
@@ -89,23 +82,120 @@ h4 {
   font-size: 16px;
   margin-top: 4px;
 }
-
 .screensaver {
   margin-top: -40px;
 }
 
-/* Component-specific themes */
+/**
+ * Component-specific themes
+ * These are triggered by the body class.
+ * The body class is set with the value from the config file when the page loads.
+ */
+
+/* 0211: GLYPH DECIPHERMENT */
+body.glyph_decipher {
+  background: #ead8c6 url(../../assets/template/img/0211_bg_pattern.png) no-repeat;
+}
+body.glyph_decipher .video-button {
+  background: url(../../assets/template/img/0211_button.png) no-repeat;
+}
+body.glyph_decipher h1 {
+  color: #47322b;
+}
+body.glyph_decipher h2 {
+  opacity: .75;
+}
+body.glyph_decipher h3,
+body.glyph_decipher h4,
+body.glyph_decipher #back {
+  color: #efe9e5;
+}
+body.glyph_decipher #back {
+  background: #47322b;
+}
+
+/* 0409: DAY KEEPERS */
+body.day_keepers {
+  background: #080c10 url(../../assets/template/img/0409_bg_pattern.png) no-repeat;
+}
+body.day_keepers .video-button {
+  background: url(../../assets/template/img/0409_button.png) no-repeat;
+}
+body.day_keepers h1 {
+  color: #ebb32b;
+}
+body.day_keepers h2 {
+  opacity: .38;
+}
+body.day_keepers h3,
+body.day_keepers h4 {
+  color: #080c10;
+}
+body.day_keepers #back {
+  background: #00233e;
+  color: #7998f1;
+}
+
+/* 0515: SITES TODAY */
+body.sites_today {
+  background: #c6c6b8 url(../../assets/template/img/0515_bg_pattern.png) no-repeat;
+}
 body.sites_today .video-button {
-  background: url(../../assets/template/img/kiosk_red_button_bg.png) no-repeat;
+  background: url(../../assets/template/img/0515_button.png) no-repeat;
+}
+body.sites_today h1,
+body.sites_today h2 {
+  color: #522523;
+}
+body.sites_today h2 {
+  opacity: .75;
+}
+body.sites_today h3,
+body.sites_today h4,
+body.sites_today #back {
+  color: #efe9e5;
 }
 body.sites_today #back {
   background: #8b0b1d;
 }
 
-/* Just for testing - can remove when other legit ones are ready */
-body.blue .video-button {
-  background: url(../../assets/template/img/kiosk_blue_button_bg.png) no-repeat;
+/* 604, 1115, 1117: BALLGAME, WEAVING, AGRICULTURE */
+body.ballgame,
+body.weaving,
+body.agriculture {
+  background: #c6c6b8 url(../../assets/template/img/0515_bg_pattern.png) no-repeat;
 }
-body.blue #back {
-  background: #0c4e8c;
+body.ballgame .video-button,
+body.weaving .video-button,
+body.agriculture .video-button {
+  background: url(../../assets/template/img/0515_button.png) no-repeat;
+}
+body.ballgame h1,
+body.weaving h1,
+body.agriculture h1,
+body.ballgame h2,
+body.weaving h2,
+body.agriculture h2 {
+  color: #522523;
+}
+body.ballgame h2,
+body.weaving h2,
+body.agriculture h2 {
+  opacity: .75;
+}
+body.ballgame h3,
+body.weaving h3,
+body.agriculture h3,
+body.ballgame h4,
+body.weaving h4,
+body.agriculture h4,
+body.ballgame #back,
+body.weaving #back,
+body.agriculture #back {
+  color: #efe9e5;
+}
+body.ballgame #back,
+body.weaving #back,
+body.agriculture #back {
+  background: #8b0b1d;
 }
