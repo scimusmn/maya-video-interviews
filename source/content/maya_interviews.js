@@ -1,9 +1,7 @@
 /**
  * Maya interview content:
- * - Text which appears as page titles on the video buttons,
- * - Media files - video files and button images.
- *
- * Be sure to include both English and Spanish translations!
+ * - Text which appears as page titles on the video buttons
+ * - Spanish translations
  *
  * To select a content set for a kiosk, set the component_name value in config/config.json
  * to match an object name here.
