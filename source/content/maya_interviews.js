@@ -10,6 +10,40 @@
  *
  */
 
+var glyph_decipher = {
+  PageTitle : "Reading the glyphs",
+  PageTitleSpanish : "",
+  MediaFolder : "glyph_decipher",
+  Screensaver : "screensaver.mp4",
+  Videos : [
+    {
+      Prompt : "What is the most interesting story in glyph decipherment?",
+      SpanishPrompt: "¿Cuál es la historia más interesante en el desciframiento glifo?",
+      File : "",
+      Image : "video1.png"
+    },
+    {
+      Prompt : "What is the value of learning to read the glyphs?",
+      SpanishPrompt: "¿Cuál es el valor de aprender a leer los glifos?",
+      File : "",
+      Image : "video2.png"
+    },
+    {
+      Prompt : "How have Mayan speakers contributed to the decipherment?",
+      SpanishPrompt: "¿Cómo han contribuido los altavoces mayas para el desciframiento?",
+      File : "",
+      Image : "video3.png"
+    },
+    {
+      Prompt : "What is epigraphy? How is the language written?",
+      SpanishPrompt: "¿Qué es la epigrafía? ¿Cómo es el lenguaje escrito?",
+      File : "",
+      Image : "video4.png"
+    }
+  ]
+};
+
+
 var weaving = {
   PageTitle : "",
   PageTitleSpanish : "",
