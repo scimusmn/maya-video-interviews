@@ -164,4 +164,26 @@ var agriculture = {
   ]
 };
 
-
+var human_remains = {
+  PageTitle : "Studying human remains tells us about individuals and populations",
+  PageTitleSpanish : "El estudio de los restos humanos nos habla de los individuos y de las poblaciones",
+  MediaFolder : "human_remains",
+  Videos : [
+    {
+      Prompt : "What do we learn by studying human remains?",
+      SpanishPrompt: "¿Qué aprendemos mediante el estudio de los restos humanos?"
+  },
+    {
+      Prompt : "Where are all the bodies?",
+      SpanishPrompt: "¿Dónde están los cuerpos?"
+    },
+    {
+      Prompt : "What burial practices did the Maya use?",
+      SpanishPrompt: "¿Qué prácticas funerarias usó el Maya?"
+    },
+    {
+      Prompt : "What’s it like to discover a tomb?",
+      SpanishPrompt: "¿Qué se siente al descubrir una tumba?"
+    }
+  ]
+};
