@@ -14,31 +14,22 @@ var glyph_decipher = {
   PageTitle : "Reading the glyphs",
   PageTitleSpanish : "",
   MediaFolder : "glyph_decipher",
-  Screensaver : "screensaver.mp4",
   Videos : [
     {
       Prompt : "What is the most interesting story in glyph decipherment?",
-      SpanishPrompt: "¿Cuál es la historia más interesante en el desciframiento glifo?",
-      File : "",
-      Image : "video1.png"
+      SpanishPrompt: "¿Cuál es la historia más interesante en el desciframiento glifo?"
     },
     {
       Prompt : "What is the value of learning to read the glyphs?",
-      SpanishPrompt: "¿Cuál es el valor de aprender a leer los glifos?",
-      File : "",
-      Image : "video2.png"
+      SpanishPrompt: "¿Cuál es el valor de aprender a leer los glifos?"
     },
     {
       Prompt : "How have Mayan speakers contributed to the decipherment?",
-      SpanishPrompt: "¿Cómo han contribuido los altavoces mayas para el desciframiento?",
-      File : "",
-      Image : "video3.png"
+      SpanishPrompt: "¿Cómo han contribuido los altavoces mayas para el desciframiento?"
     },
     {
       Prompt : "What is epigraphy? How is the language written?",
-      SpanishPrompt: "¿Qué es la epigrafía? ¿Cómo es el lenguaje escrito?",
-      File : "",
-      Image : "video4.png"
+      SpanishPrompt: "¿Qué es la epigrafía? ¿Cómo es el lenguaje escrito?"
     }
   ]
 };
@@ -47,31 +38,22 @@ var day_keepers = {
   PageTitle : "Some people still track time and make decisions according to the ancient calendar",
   PageTitleSpanish : "Algunas personas todavía controlar el tiempo y tomar decisiones de acuerdo con el antiguo calendario",
   MediaFolder : "day_keepers",
-  Screensaver : "screensaver.mp4",
   Videos : [
     {
       Prompt : "Why is it important to keep track of the old calendar?",
-      SpanishPrompt: "¿Por qué es importante no perder de vista el calendario viejo?",
-      File : "",
-      Image : "video1.png"
+      SpanishPrompt: "¿Por qué es importante no perder de vista el calendario viejo?"
     },
     {
       Prompt : "How are divination and the calendar related?",
-      SpanishPrompt: "¿Cómo están relacionados con la adivinación y el calendario?",
-      File : "",
-      Image : "video2.png"
+      SpanishPrompt: "¿Cómo están relacionados con la adivinación y el calendario?"
     },
     {
       Prompt : "What are the daykeepers duties?",
-      SpanishPrompt: "¿Cuáles son los deberes contadores de los días?",
-      File : "",
-      Image : "video3.png"
+      SpanishPrompt: "¿Cuáles son los deberes contadores de los días?"
     },
     {
       Prompt : "Continuity of ancient calendar and today's?",
-      SpanishPrompt: "Continuidad del calendario antiguo y de hoy?",
-      File : "",
-      Image : "video4.png"
+      SpanishPrompt: "Continuidad del calendario antiguo y de hoy?"
     }
   ]
 };
@@ -80,31 +62,22 @@ var weaving = {
   PageTitle : "",
   PageTitleSpanish : "",
   MediaFolder : "weaving",
-  Screensaver : "screensaver.mp4",
   Videos : [
     {
       Prompt : "How do people learn to weave?",
-      SpanishPrompt: "¿Cómo se aprende a tejer?",
-      File : "",
-      Image : "video1.png"
-    },
+      SpanishPrompt: "¿Cómo se aprende a tejer?"
+  },
     {
       Prompt : "How is the weaving today connected to the ancient maya?",
-      SpanishPrompt: "¿Cómo es en la actualidad el tejido conectado a los antiguos mayas?",
-      File : "",
-      Image : "video2.png"
+      SpanishPrompt: "¿Cómo es en la actualidad el tejido conectado a los antiguos mayas?"
     },
     {
       Prompt : "Why is weaving important to the Mayan culture today?",
-      SpanishPrompt: "¿Por qué es importante el tejido de la cultura Maya hoy?",
-      File : "",
-      Image : "video3.png"
+      SpanishPrompt: "¿Por qué es importante el tejido de la cultura Maya hoy?"
     },
     {
       Prompt : "What do the patterns mean?",
-      SpanishPrompt: "¿Qué significan los patrones?",
-      File : "",
-      Image : "video4.png"
+      SpanishPrompt: "¿Qué significan los patrones?"
     }
   ]
 };
@@ -113,31 +86,22 @@ var sites_today = {
   PageTitle : "There are many reasons to investigate and preserve ancient Maya sites",
   PageTitleSpanish : "Hay muchos motivos de investigar y conservar sitios mayas antiguos",
   MediaFolder : "sites_today",
-  Screensaver : "screensaver.mp4",
   Videos : [
     {
       Prompt : "How do lasers help you find undiscovered sites?",
       SpanishPrompt: "¿Cómo rayos láser ayudarle a encontrar sitios por descubrir?",
-      File : "1115_Chip_012.mp4",
-      Image : "video1.png"
     },
     {
       Prompt : "What was a Maya city like when people still lived there?",
-      SpanishPrompt: "Lo que era una ciudad Maya como cuando las personas viven aún?",
-      File : "1115_Chip_014.mp4",
-      Image : "video2.png"
+      SpanishPrompt: "Lo que era una ciudad Maya como cuando las personas viven aún?"
     },
     {
       Prompt : "Why were Maya cities abandoned?",
-      SpanishPrompt: "¿Por qué fueron abandonadas las ciudades mayas?",
-      File : "1115_Chip_018.mp4",
-      Image : "video3.png"
+      SpanishPrompt: "¿Por qué fueron abandonadas las ciudades mayas?"
     },
     {
       Prompt : "Why do we preserve and visit Maya sites today?",
-      SpanishPrompt: "¿Por qué conservar y visitar sitios mayas de hoy?",
-      File : "1115_Chip_022.mp4",
-      Image : "video4.png"
+      SpanishPrompt: "¿Por qué conservar y visitar sitios mayas de hoy?"
     }
   ]
 };
