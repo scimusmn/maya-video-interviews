@@ -10,6 +10,39 @@
  *
  */
 
+var weaving = {
+  PageTitle : "",
+  PageTitleSpanish : "",
+  MediaFolder : "weaving",
+  Screensaver : "screensaver.mp4",
+  Videos : [
+    {
+      Prompt : "How do people learn to weave?",
+      SpanishPrompt: "¿Cómo se aprende a tejer?",
+      File : "",
+      Image : "video1.png"
+    },
+    {
+      Prompt : "How is the weaving today connected to the ancient maya?",
+      SpanishPrompt: "¿Cómo es en la actualidad el tejido conectado a los antiguos mayas?",
+      File : "",
+      Image : "video2.png"
+    },
+    {
+      Prompt : "Why is weaving important to the Mayan culture today?",
+      SpanishPrompt: "¿Por qué es importante el tejido de la cultura Maya hoy?",
+      File : "",
+      Image : "video3.png"
+    },
+    {
+      Prompt : "What do the patterns mean?",
+      SpanishPrompt: "¿Qué significan los patrones?",
+      File : "",
+      Image : "video4.png"
+    }
+  ]
+};
+
 var sites_today = {
   PageTitle : "There are many reasons to investigate and preserve ancient Maya sites",
   PageTitleSpanish : "Hay muchos motivos de investigar y conservar sitios mayas antiguos",
