@@ -58,6 +58,79 @@ var day_keepers = {
   ]
 };
 
+var sites_today = {
+  PageTitle : "There are many reasons to investigate and preserve ancient Maya sites",
+  PageTitleSpanish : "Hay muchos motivos de investigar y conservar sitios mayas antiguos",
+  MediaFolder : "sites_today",
+  Videos : [
+    {
+      Prompt : "How do lasers help you find undiscovered sites?",
+      SpanishPrompt: "¿Cómo rayos láser ayudarle a encontrar sitios por descubrir?",
+    },
+    {
+      Prompt : "What was a Maya city like when people still lived there?",
+      SpanishPrompt: "Lo que era una ciudad Maya como cuando las personas viven aún?"
+    },
+    {
+      Prompt : "Why were Maya cities abandoned?",
+      SpanishPrompt: "¿Por qué fueron abandonadas las ciudades mayas?"
+    },
+    {
+      Prompt : "Why do we preserve and visit Maya sites today?",
+      SpanishPrompt: "¿Por qué conservar y visitar sitios mayas de hoy?"
+    }
+  ]
+};
+
+var ballgame = {
+  PageTitle : "The first team sport in human history was a game of life or death",
+  PageTitleSpanish : "El deporte de equipo por primera vez en la historia humana fue un juego de vida o muerte",
+  MediaFolder : "ballgame",
+  Videos : [
+    {
+      Prompt : "Why and how did the Maya play the game?",
+      SpanishPrompt: "¿Por qué y cómo los mayas jugar el juego?"
+  },
+    {
+      Prompt : "Do people still play today?",
+      SpanishPrompt: "¿La gente todavía juegan hoy en día?"
+    },
+    {
+      Prompt : "How did they make the balls?",
+      SpanishPrompt: "¿Cómo se hacen las bolas?"
+    },
+    {
+      Prompt : "What do the patterns mean?",
+      SpanishPrompt: "¿Quiénes fueron los héroes gemelos?"
+    }
+  ]
+};
+
+/* !! MISSING CONTENT !! */
+var agriculture = {
+  PageTitle : "",
+  PageTitleSpanish : "",
+  MediaFolder : "agriculture",
+  Videos : [
+    {
+      Prompt : "What was life like outside of a city center?",
+      SpanishPrompt: "¿Qué era la vida fuera de un centro de la ciudad?"
+  },
+    {
+      Prompt : "What do we know about ancient Maya markets?",
+      SpanishPrompt: "¿Qué sabemos acerca de los mercados antiguos mayas?"
+    },
+    {
+      Prompt : "How many people lived in the cities and how did the farmers feed them?",
+      SpanishPrompt: "¿Cuántas personas vivían en las ciudades y cómo los agricultores a alimentar?"
+    },
+    {
+      Prompt : "Does anyone today farm like they did in the classic period?",
+      SpanishPrompt: "¿Tiene granja alguien hoy como lo hicieron en el período clásico?"
+    }
+  ]
+};
+
 /* !! MISSING CONTENT !! */
 var weaving = {
   PageTitle : "",
@@ -79,30 +152,6 @@ var weaving = {
     {
       Prompt : "What do the patterns mean?",
       SpanishPrompt: "¿Qué significan los patrones?"
-    }
-  ]
-};
-
-var sites_today = {
-  PageTitle : "There are many reasons to investigate and preserve ancient Maya sites",
-  PageTitleSpanish : "Hay muchos motivos de investigar y conservar sitios mayas antiguos",
-  MediaFolder : "sites_today",
-  Videos : [
-    {
-      Prompt : "How do lasers help you find undiscovered sites?",
-      SpanishPrompt: "¿Cómo rayos láser ayudarle a encontrar sitios por descubrir?",
-    },
-    {
-      Prompt : "What was a Maya city like when people still lived there?",
-      SpanishPrompt: "Lo que era una ciudad Maya como cuando las personas viven aún?"
-    },
-    {
-      Prompt : "Why were Maya cities abandoned?",
-      SpanishPrompt: "¿Por qué fueron abandonadas las ciudades mayas?"
-    },
-    {
-      Prompt : "Why do we preserve and visit Maya sites today?",
-      SpanishPrompt: "¿Por qué conservar y visitar sitios mayas de hoy?"
     }
   ]
 };
