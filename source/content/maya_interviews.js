@@ -6,6 +6,14 @@
  * To select a content set for a kiosk, set the component_name value in config/config.json
  * to match an object name here.
  *
+ * OBJECTS:
+ * - glyph_decipher
+ * - day_keepers
+ * - sites_today
+ * - ballgame
+ * - weaving
+ * - agriculture
+ * - human_remains
  */
 
 /* !! MISSING CONTENT !! */
@@ -107,6 +115,31 @@ var ballgame = {
 };
 
 /* !! MISSING CONTENT !! */
+var weaving = {
+  PageTitle : "",
+  PageTitleSpanish : "",
+  MediaFolder : "weaving",
+  Videos : [
+    {
+      Prompt : "How do people learn to weave?",
+      SpanishPrompt: "¿Cómo se aprende a tejer?"
+  },
+    {
+      Prompt : "How is the weaving today connected to the ancient maya?",
+      SpanishPrompt: "¿Cómo es en la actualidad el tejido conectado a los antiguos mayas?"
+    },
+    {
+      Prompt : "Why is weaving important to the Mayan culture today?",
+      SpanishPrompt: "¿Por qué es importante el tejido de la cultura Maya hoy?"
+    },
+    {
+      Prompt : "What do the patterns mean?",
+      SpanishPrompt: "¿Qué significan los patrones?"
+    }
+  ]
+};
+
+/* !! MISSING CONTENT !! */
 var agriculture = {
   PageTitle : "",
   PageTitleSpanish : "",
@@ -131,27 +164,4 @@ var agriculture = {
   ]
 };
 
-/* !! MISSING CONTENT !! */
-var weaving = {
-  PageTitle : "",
-  PageTitleSpanish : "",
-  MediaFolder : "weaving",
-  Videos : [
-    {
-      Prompt : "How do people learn to weave?",
-      SpanishPrompt: "¿Cómo se aprende a tejer?"
-  },
-    {
-      Prompt : "How is the weaving today connected to the ancient maya?",
-      SpanishPrompt: "¿Cómo es en la actualidad el tejido conectado a los antiguos mayas?"
-    },
-    {
-      Prompt : "Why is weaving important to the Mayan culture today?",
-      SpanishPrompt: "¿Por qué es importante el tejido de la cultura Maya hoy?"
-    },
-    {
-      Prompt : "What do the patterns mean?",
-      SpanishPrompt: "¿Qué significan los patrones?"
-    }
-  ]
-};
+
