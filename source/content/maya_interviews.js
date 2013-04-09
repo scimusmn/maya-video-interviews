@@ -8,6 +8,7 @@
  *
  */
 
+/* !! MISSING CONTENT !! */
 var glyph_decipher = {
   PageTitle : "Reading the glyphs",
   PageTitleSpanish : "",
@@ -32,6 +33,7 @@ var glyph_decipher = {
   ]
 };
 
+/* !! MISSING CONTENT !! */
 var day_keepers = {
   PageTitle : "Some people still track time and make decisions according to the ancient calendar",
   PageTitleSpanish : "Algunas personas todavía controlar el tiempo y tomar decisiones de acuerdo con el antiguo calendario",
@@ -56,6 +58,7 @@ var day_keepers = {
   ]
 };
 
+/* !! MISSING CONTENT !! */
 var weaving = {
   PageTitle : "",
   PageTitleSpanish : "",
