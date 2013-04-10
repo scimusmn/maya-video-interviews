@@ -38,7 +38,8 @@ var kiosk_init = function(compile) {
 
     } else {
       // Precompiled template just needs to be output into the DOM
-      var html = Handlebars.template['videos'](component);
+      var template = Handlebars.templates['videos'],
+      html = template(component);
 
       // Output markup into container div, then start video functionality
       $('#container').html(html);
