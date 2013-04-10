@@ -27,7 +27,11 @@ $(function () {
  */
 function timerIncrement() {
   idleTime = idleTime + 1;
-  if (idleTime > 2) { // 3 minutes
+  var videoPlayer = _V_('videoPlayer');
+
+  // If it's been 3 minutes of inactivity, and a video's not playing, save the screen
+  if ((idleTime > 2) && (!videoPlayer.paused())) {
+
     // Get player and screensaver
     var videoPlayer = _V_('videoPlayer');
     var screensaver = $('video').attr('data-screensaver');
