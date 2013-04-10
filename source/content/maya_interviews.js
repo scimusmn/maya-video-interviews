@@ -41,15 +41,14 @@ var glyph_decipher = {
   ]
 };
 
-/* !! MISSING CONTENT !! */
 var day_keepers = {
   PageTitle : "Some people still track time and make decisions according to the ancient calendar",
   PageTitleSpanish : "Algunas personas todavía controlar el tiempo y tomar decisiones de acuerdo con el antiguo calendario",
   MediaFolder : "day_keepers",
   Videos : [
     {
-      Prompt : "Why is it important to keep track of the old calendar?",
-      SpanishPrompt: "¿Por qué es importante no perder de vista el calendario viejo?"
+      Prompt : "Why keep track of the old calendar?",
+      SpanishPrompt: "¿Por qué hacer un seguimiento del calendario viejo?"
     },
     {
       Prompt : "How are divination and the calendar related?",
@@ -60,8 +59,8 @@ var day_keepers = {
       SpanishPrompt: "¿Cuáles son los deberes contadores de los días?"
     },
     {
-      Prompt : "Continuity of ancient calendar and today's?",
-      SpanishPrompt: "Continuidad del calendario antiguo y de hoy?"
+      Prompt : "How is the old calendar used today?",
+      SpanishPrompt: "¿Cómo es el calendario antiguo utilizado hoy en día?"
     }
   ]
 };
