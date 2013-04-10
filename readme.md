@@ -6,6 +6,12 @@ Template and HTML5 video playback for interview question (IQ) kiosks in the Maya
 ## Install
 No special instructions yet.
 
+## Development/Build Process
+- Make changes in the "source" directory.
+- To create a new build:
+ - Precompile the Handlebars template: handlebars source/templates/videos.handlebars -f build/templates/videos.handlebars.js 
+ - Minify JS and CSS using Grunt: grunt
+
 ## Roadmap
 - ~~Develop a config file to set the kiosk's color scheme and content.~~
 - ~~Develop screensaver functionality.~~
