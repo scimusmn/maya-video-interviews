@@ -115,25 +115,25 @@ var ballgame = {
 
 /* !! MISSING CONTENT !! */
 var weaving = {
-  PageTitle : "",
-  PageTitleSpanish : "",
+  PageTitle : "Weaving has been important to the Maya since ancient times",
+  PageTitleSpanish : "Weaving ha sido importante para los mayas desde tiempos antiguos",
   MediaFolder : "weaving",
   Videos : [
     {
-      Prompt : "How do people learn to weave?",
-      SpanishPrompt: "¿Cómo se aprende a tejer?"
+      Prompt : "How do Maya women learn to weave?",
+      SpanishPrompt: "¿Cómo las mujeres mayas aprender a tejer?"
   },
     {
-      Prompt : "How is the weaving today connected to the ancient maya?",
-      SpanishPrompt: "¿Cómo es en la actualidad el tejido conectado a los antiguos mayas?"
+      Prompt : "What connections exist to ancient Maya weaving?",
+      SpanishPrompt: "¿Qué conexiones existen para los antiguos mayas tejen?"
     },
     {
-      Prompt : "Why is weaving important to the Mayan culture today?",
-      SpanishPrompt: "¿Por qué es importante el tejido de la cultura Maya hoy?"
+      Prompt : "How do designs reflect Maya world views?",
+      SpanishPrompt: "¿Cómo diseños reflejan la visión maya del mundo?"
     },
     {
-      Prompt : "What do the patterns mean?",
-      SpanishPrompt: "¿Qué significan los patrones?"
+      Prompt : "Why is it important to the Maya today?",
+      SpanishPrompt: "¿Por qué es importante para los mayas hoy?"
     }
   ]
 };
