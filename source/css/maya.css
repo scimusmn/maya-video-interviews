@@ -222,6 +222,7 @@ body.human_remains h4 {
   color: #39322f;
 }
 body.human_remains #back {
-  background: #8b0b1d;
+  background: #39322f;
   color: #efe9e5;
+  box-shadow: none;
 }
