@@ -31,5 +31,5 @@ Check out the sites_today directories as an example - we don't have content for 
  /Volumes/ExhibitProjects/Projects/Maya/Multimedia/Templates/Interview questions/PSD/btn_images.psd
  - Button background images come from btn_bg.psd in the same folder as the other one, 
  but those should go into assets/template and be committed in this repo since they're referenced in the CSS file.
-- Videos should be named video1.mp4, video2.mp4, etc. Image names should match their associated video, but with the PNG extension 
-(i.e. video1.png, video2.png, etc).
+- Videos should be named video0.mp4, video1.mp4, etc. Image names should match their associated video, but with the PNG extension 
+(i.e. video0.png, video1.png, etc).
