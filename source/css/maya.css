@@ -24,7 +24,7 @@ body {
 }
 .video-button {
   cursor: pointer;
-  display: inline-block;
+  float: left;
   margin-right: 70px;
   width: 257px;
   height: 547px;
@@ -38,7 +38,7 @@ body {
   left: 15px;
 }
 .video-prompts {
-  padding: 12px 25px 0 25px;
+  padding: 6px 25px 0;
 }
 h1 {
   font-size: 36px;
@@ -57,11 +57,11 @@ h3, h4 {
   font-weight: normal;
 }
 h3 {
-  font-size: 16px;
+  font-size: 21px;
 }
 h4 {
   font-style: italic;
-  font-size: 14px;
+  font-size: 17px;
 }
 #back {
   width: 164px;
@@ -99,7 +99,8 @@ body.glyph_decipher {
 body.glyph_decipher .video-button {
   background: url(../../assets/template/img/0211_button.png) no-repeat;
 }
-body.glyph_decipher h1 {
+body.glyph_decipher h1,
+body.glyph_decipher h2 {
   color: #47322b;
 }
 body.glyph_decipher h2 {
@@ -121,7 +122,8 @@ body.day_keepers {
 body.day_keepers .video-button {
   background: url(../../assets/template/img/0409_button.png) no-repeat;
 }
-body.day_keepers h1 {
+body.day_keepers h1,
+body.day_keepers h2 {
   color: #ebb32b;
 }
 body.day_keepers h2 {
@@ -134,6 +136,7 @@ body.day_keepers h4 {
 body.day_keepers #back {
   background: #00233e;
   color: #7998f1;
+  box-shadow: 0 0 8px #000000;
 }
 
 /* 0515: SITES TODAY */
