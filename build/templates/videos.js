@@ -12,17 +12,13 @@ function program1(depth0,data,depth1) {
     + escapeExpression(((stack1 = data.index),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
     + "\" data-video-source=\""
     + escapeExpression(((stack1 = depth1.MediaFolder),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
-    + "/";
-  if (stack2 = helpers.File) { stack2 = stack2.call(depth0, {hash:{},data:data}); }
-  else { stack2 = depth0.File; stack2 = typeof stack2 === functionType ? stack2.apply(depth0) : stack2; }
-  buffer += escapeExpression(stack2)
-    + "\">\n      <img src=\"../assets/images/"
+    + "/video"
+    + escapeExpression(((stack1 = data.index),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
+    + ".mp4\">\n      <img src=\"../assets/images/"
     + escapeExpression(((stack1 = depth1.MediaFolder),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
-    + "/";
-  if (stack2 = helpers.Image) { stack2 = stack2.call(depth0, {hash:{},data:data}); }
-  else { stack2 = depth0.Image; stack2 = typeof stack2 === functionType ? stack2.apply(depth0) : stack2; }
-  buffer += escapeExpression(stack2)
-    + "\">\n      <div class=\"video-prompts\">\n        <h3>";
+    + "/video"
+    + escapeExpression(((stack1 = data.index),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
+    + ".png\">\n      <div class=\"video-prompts\">\n        <h3>";
   if (stack2 = helpers.Prompt) { stack2 = stack2.call(depth0, {hash:{},data:data}); }
   else { stack2 = depth0.Prompt; stack2 = typeof stack2 === functionType ? stack2.apply(depth0) : stack2; }
   buffer += escapeExpression(stack2)
@@ -49,16 +45,10 @@ function program1(depth0,data,depth1) {
   if (stack1 = helpers.MediaFolder) { stack1 = stack1.call(depth0, {hash:{},data:data}); }
   else { stack1 = depth0.MediaFolder; stack1 = typeof stack1 === functionType ? stack1.apply(depth0) : stack1; }
   buffer += escapeExpression(stack1)
-    + "/";
-  if (stack1 = helpers.Screensaver) { stack1 = stack1.call(depth0, {hash:{},data:data}); }
-  else { stack1 = depth0.Screensaver; stack1 = typeof stack1 === functionType ? stack1.apply(depth0) : stack1; }
-  buffer += escapeExpression(stack1)
-    + "\">\n    <source src=\"../assets/video/";
+    + "/screensaver.mp4\">\n    <source src=\"../assets/video/";
   if (stack1 = helpers.MediaFolder) { stack1 = stack1.call(depth0, {hash:{},data:data}); }
   else { stack1 = depth0.MediaFolder; stack1 = typeof stack1 === functionType ? stack1.apply(depth0) : stack1; }
   buffer += escapeExpression(stack1)
-    + "/"
-    + escapeExpression(((stack1 = ((stack1 = ((stack1 = depth0.Videos),stack1 == null || stack1 === false ? stack1 : stack1[0])),stack1 == null || stack1 === false ? stack1 : stack1.File)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
-    + "\" type='video/mp4'>\n  </video>\n</div>\n<div id=\"back\" class=\"hidden\">\n  <p>Back</p>\n  <p>Atrás</p>\n</div>\n";
+    + "/video0.mp4\" type='video/mp4'>\n  </video>\n</div>\n<div id=\"back\" class=\"hidden\">\n  <p>Back</p>\n  <p>Atrás</p>\n</div>\n";
   return buffer;
   });
