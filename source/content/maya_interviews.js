@@ -19,7 +19,7 @@
 /* !! MISSING CONTENT !! */
 var glyph_decipher = {
   PageTitle : "Reading the glyphs",
-  PageTitleSpanish : "",
+  PageTitleSpanish : "La lectura de los glifos",
   MediaFolder : "glyph_decipher",
   Videos : [
     {
