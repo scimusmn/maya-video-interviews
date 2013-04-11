@@ -25,7 +25,17 @@ module.exports = function(grunt) {
           'build/css/maya_interviews.min.css': ['source/css/maya.css', 'source/css/video-js.min.css']
         }
       }
-    }
+    },
+    /*imagemin: {
+      dist: {
+        options: {
+          optimizationLevel: 3
+        },
+        files: {
+          'assets/images/**/*.png': ['assets/images/**/*.png']
+        }
+      },
+    }*/
   });
 
   // Load the plugin that provides the "uglify" task.
@@ -34,7 +44,10 @@ module.exports = function(grunt) {
   // CSSMin plugin
   grunt.loadNpmTasks('grunt-contrib-cssmin');
 
+  // Image optimizer
+  grunt.loadNpmTasks('grunt-contrib-imagemin');
+
   // Default task(s).
-  grunt.registerTask('default', ['uglify', 'cssmin']);
+  grunt.registerTask('default', ['uglify', 'cssmin'/*, 'imagemin'*/]);
 
 };
