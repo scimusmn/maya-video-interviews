@@ -26,16 +26,6 @@ module.exports = function(grunt) {
         }
       }
     },
-    /*imagemin: {
-      dist: {
-        options: {
-          optimizationLevel: 3
-        },
-        files: {
-          'assets/images/**/*.png': ['assets/images/**/*.png']
-        }
-      },
-    }*/
   });
 
   // Load the plugin that provides the "uglify" task.
@@ -44,10 +34,7 @@ module.exports = function(grunt) {
   // CSSMin plugin
   grunt.loadNpmTasks('grunt-contrib-cssmin');
 
-  // Image optimizer
-  grunt.loadNpmTasks('grunt-contrib-imagemin');
-
   // Default task(s).
-  grunt.registerTask('default', ['uglify', 'cssmin'/*, 'imagemin'*/]);
+  grunt.registerTask('default', ['uglify', 'cssmin']);
 
 };
