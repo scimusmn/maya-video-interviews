@@ -10,7 +10,7 @@ No special instructions yet.
 - Make changes in the "source" directory.
 - Precompile the Handlebars template: 
 ``` handlebars source/templates/videos.handlebars -f build/templates/videos.handlebars.js ```
-- Minify JS and CSS using Grunt: 
+- Run all the Grunt tasks: 
 ``` grunt ```
 
 ## Roadmap
@@ -20,7 +20,7 @@ No special instructions yet.
 - ~~Fill in actual text content (English and Spanish).~~
 - ~~Get other color options~~ and possibly adjust colors to match physical objects.
 - Look into Selenium scripts for more tests.
-- Try optimizing the png files.
-- Set up Grunt.js for deploying to kiosks, something like:
+- ~~Try optimizing the png files.~~
+- ~~Set up Grunt.js for deploying to kiosks, something like:~~
  - ~~minify code~~
- - run tests
+ - ~~run tests~~
