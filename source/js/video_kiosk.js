@@ -42,11 +42,19 @@ var maya_player = function(videoPlayer) {
 
   // Back button returns you to the video options and stops the video
   $('#back').click(function() {
-    $('.hidden').fadeOut(500, function() {
-      videoPlayer.pause();
-      videoPlayer.currentTime('0'); // Be kind, rewind
-      $('#video-options').fadeIn('fast');
-    });
+    restartKiosk(videoPlayer);
   });
 
+}
+
+/**
+ * Restart the kiosk:
+ * Pause and rewind the video, return to the start page
+ */
+var restartKiosk = function(videoPlayer) {
+  $('.hidden').fadeOut(500, function() {
+    videoPlayer.pause();
+    videoPlayer.currentTime('0'); // Be kind, rewind
+    $('#video-options').fadeIn('fast');
+  });
 }
