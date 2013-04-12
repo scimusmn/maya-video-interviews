@@ -12,12 +12,6 @@ body {
   -ms-user-select: none;
   user-select: none;
 }
-@font-face {
-  font-family: 'Candara';
-  src: url('../../assets/template/font/Candara.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
 #container {
   overflow: hidden;
   height: 768px;
