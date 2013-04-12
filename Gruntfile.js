@@ -29,7 +29,10 @@ module.exports = function(grunt) {
     smushit: {
       path: {
         src:'assets/images'
-      }
+      },
+    },
+    qunit: {
+      all: ['tests/index.html']
     }
   });
 
@@ -42,7 +45,10 @@ module.exports = function(grunt) {
   // Image optimizer
   grunt.loadNpmTasks('grunt-smushit');
 
+  // Unit tests
+  grunt.loadNpmTasks('grunt-contrib-qunit');
+
   // Default task(s).
-  grunt.registerTask('default', ['uglify', 'cssmin', 'smushit']);
+  grunt.registerTask('default', ['uglify', 'cssmin', 'smushit', 'qunit']);
 
 };
