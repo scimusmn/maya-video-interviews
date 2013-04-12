@@ -12,7 +12,7 @@ function program1(depth0,data,depth1) {
     + escapeExpression(((stack1 = data.index),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
     + "\" data-video-source=\""
     + escapeExpression(((stack1 = depth1.MediaFolder),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
-    + "/video"
+    + "/videos"
     + escapeExpression(((stack1 = data.index),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
     + ".mp4\">\n      <img src=\"../assets/images/"
     + escapeExpression(((stack1 = depth1.MediaFolder),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
@@ -41,11 +41,11 @@ function program1(depth0,data,depth1) {
     + "</h2>\n\n<div id=\"video-options\">\n  ";
   stack1 = helpers.each.call(depth0, depth0.Videos, {hash:{},inverse:self.noop,fn:self.programWithDepth(program1, data, depth0),data:data});
   if(stack1 || stack1 === 0) { buffer += stack1; }
-  buffer += "\n</div>\n\n<!-- Video player is hidden initially and shown after a video is selected -->\n<div class=\"hidden\">\n  <video id=\"videoPlayer\" class=\"video-js vjs-default-skin\" preload=\"auto\" width=\"1200\" height=\"520\" data-screensaver=\"../assets/video/";
+  buffer += "\n</div>\n\n<!-- Video player is hidden initially and shown after a video is selected -->\n<div class=\"hidden\">\n  <video id=\"videoPlayer\" class=\"video-js vjs-default-skin\" preload=\"auto\" width=\"1200\" height=\"520\" data-screensaver=\"../assets/videos/";
   if (stack1 = helpers.MediaFolder) { stack1 = stack1.call(depth0, {hash:{},data:data}); }
   else { stack1 = depth0.MediaFolder; stack1 = typeof stack1 === functionType ? stack1.apply(depth0) : stack1; }
   buffer += escapeExpression(stack1)
-    + "/screensaver.mp4\">\n    <source src=\"../assets/video/";
+    + "/screensaver.mp4\">\n    <source src=\"../assets/videos/";
   if (stack1 = helpers.MediaFolder) { stack1 = stack1.call(depth0, {hash:{},data:data}); }
   else { stack1 = depth0.MediaFolder; stack1 = typeof stack1 === functionType ? stack1.apply(depth0) : stack1; }
   buffer += escapeExpression(stack1)
