@@ -37,6 +37,9 @@ function timerIncrement() {
     var videoPlayer = _V_('videoPlayer');
     var screensaver = $('video').attr('data-screensaver');
 
+    // Add the "loop" attribute
+    $('video').prop('loop', true);
+
     // Fade out content
     $('#video-options, h1, h2').fadeOut('fast');
 
