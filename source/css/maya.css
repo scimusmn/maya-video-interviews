@@ -1,3 +1,6 @@
+* {
+  cursor: none;
+}
 body {
   padding: 0;
   margin: 0;
@@ -8,7 +11,6 @@ body {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  cursor: none;
 }
 @font-face {
   font-family: 'Candara';
