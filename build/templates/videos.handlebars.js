@@ -12,7 +12,7 @@ function program1(depth0,data,depth1) {
     + escapeExpression(((stack1 = data.index),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
     + "\" data-video-source=\""
     + escapeExpression(((stack1 = depth1.MediaFolder),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
-    + "/videos"
+    + "/video"
     + escapeExpression(((stack1 = data.index),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
     + ".mp4\">\n      <img src=\"../assets/images/"
     + escapeExpression(((stack1 = depth1.MediaFolder),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
