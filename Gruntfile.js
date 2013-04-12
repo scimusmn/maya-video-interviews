@@ -28,7 +28,7 @@ module.exports = function(grunt) {
     },
     smushit: {
       path: {
-        src:'assets/images'
+        src:['assets/images', 'assets/template/img']
       },
     },
     qunit: {
