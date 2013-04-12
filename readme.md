@@ -4,23 +4,32 @@
 Template and HTML5 video playback for interview question (IQ) kiosks in the Maya exhibit.
 
 ## Install
-No special instructions yet.
+Run install.sh with the component machine name as the argument, like this:
+``` ./install.sh weaving ```
+
+This will create a folder on your desktop, which can be copied onto the kiosk PC.
+
+Component machine names:
+
+- glyph_decipher
+- day_keepers
+- sites_today
+- ballgame
+- weaving
+- agriculture
+- human_remains
 
 ## Development/Build Process
 - Make changes in the "source" directory.
-- Precompile the Handlebars template: 
-``` handlebars source/templates/videos.handlebars -f build/templates/videos.handlebars.js ```
-- Run all the Grunt tasks: 
-``` grunt ```
+- Create a new build by running build.sh, which will precompile the handlebars templates and run all the Grunt tasks.
+
+### Dev Dependencies 
+To execute the build process, you'll need to install Grunt, Handlebars, node and npm.
+
+- Grunt: http://http://gruntjs.com/getting-started
+- Handlebars: http://handlebarsjs.com/precompilation.html
+- Node and npm are pretty easy to install using Homebrew (http://mxcl.github.io/homebrew/).
 
 ## Roadmap
-- ~~Develop a config file to set the kiosk's color scheme and content.~~
-- ~~Develop screensaver functionality.~~
-- ~~Develop some unit tests, possibly using http://qunitjs.com/~~
-- ~~Fill in actual text content (English and Spanish).~~
-- ~~Get other color options~~ and possibly adjust colors to match physical objects.
-- Look into Selenium scripts for more tests.
-- ~~Try optimizing the png files.~~
-- ~~Set up Grunt.js for deploying to kiosks, something like:~~
- - ~~minify code~~
- - ~~run tests~~
+- Get feedback from SMM staff
+- Content edits (text, videos and images)
