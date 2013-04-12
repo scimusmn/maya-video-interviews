@@ -25,6 +25,11 @@ function video_kiosk() {
 
     });
 
+    // When the video ends, go back to the start page
+    this.addEvent('ended', function(){
+      restartKiosk(this);
+    });
+
   });
 
 };
