@@ -2,13 +2,14 @@
 
 echo "Creating directory structure for $1..."
 mkdir ~/Desktop/maya_IQ_$1
+mkdir ~/Desktop/maya_IQ_$1/build
 mkdir ~/Desktop/maya_IQ_$1/assets
 mkdir ~/Desktop/maya_IQ_$1/assets/images
 mkdir ~/Desktop/maya_IQ_$1/assets/videos
 mkdir ~/Desktop/maya_IQ_$1/assets/images/$1
 mkdir ~/Desktop/maya_IQ_$1/assets/videos/$1
 mkdir ~/Desktop/maya_IQ_$1/assets/template
-cp -r build/* ~/Desktop/maya_IQ_$1
+cp -r build/* ~/Desktop/maya_IQ_$1/build
 echo
 
 echo "Exporting assets for $1..."
