@@ -22,6 +22,8 @@ Component machine names:
 ## Development/Build Process
 - Make changes in the "source" directory.
 - Create a new build by running build.sh, which will precompile the handlebars templates and run all the Grunt tasks.
+- To run this program outside of a webserver, you'll need to launch Chrome with the --allow-file-access-from-files flag.
+This allows the application to read the config file. See http://www.chromium.org/developers/how-tos/run-chromium-with-flags
 
 ### Dev Dependencies 
 To execute the build process, you'll need to install Grunt, Handlebars, node and npm.
