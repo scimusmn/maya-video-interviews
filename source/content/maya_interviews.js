@@ -23,19 +23,19 @@ var glyph_decipher = {
   Videos : [
     {
       Prompt : "What is the value of learning to read the glyphs?",
-      SpanishPrompt: "¿Cuál es la historia más interesante en el desciframiento glifo?"
-    },
-    {
-      Prompt : "Why is learning the glyphs important to the modern Maya?",
       SpanishPrompt: "¿Cuál es el valor de aprender a leer los glifos?"
     },
     {
+      Prompt : "Why is learning the glyphs important to the modern Maya?",
+      SpanishPrompt: "¿Por qué es el aprendizaje de los glifos importantes para los mayas modernos?"
+    },
+    {
       Prompt : "Is there a connection between language and identity?",
-      SpanishPrompt: "¿Cómo han contribuido los altavoces mayas para el desciframiento?"
+      SpanishPrompt: "¿Existe alguna relación entre el lenguaje y la identidad?"
     },
     {
       Prompt : "How is the language written?",
-      SpanishPrompt: "¿Qué es la epigrafía? ¿Cómo es el lenguaje escrito?"
+      SpanishPrompt: "¿Cómo se escribe el idioma?"
     }
   ]
 };
