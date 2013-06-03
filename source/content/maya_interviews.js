@@ -16,58 +16,57 @@
  * - human_remains
  */
 
-/* !! MISSING CONTENT !! */
 var glyph_decipher = {
-  PageTitle : "Reading the glyphs",
-  PageTitleSpanish : "La lectura de los glifos",
+  PageTitle : "Learn more about decipherment",
+  PageTitleSpanish : "",
   MediaFolder : "glyph_decipher",
   Videos : [
     {
-      Prompt : "What is the most interesting story in glyph decipherment?",
+      Prompt : "What is the value of learning to read the glyphs?",
       SpanishPrompt: "¿Cuál es la historia más interesante en el desciframiento glifo?"
     },
     {
-      Prompt : "What is the value of learning to read the glyphs?",
+      Prompt : "Why is learning the glyphs important to the modern Maya?",
       SpanishPrompt: "¿Cuál es el valor de aprender a leer los glifos?"
     },
     {
-      Prompt : "How have Mayan speakers contributed to the decipherment?",
+      Prompt : "Is there a connection between language and identity?",
       SpanishPrompt: "¿Cómo han contribuido los altavoces mayas para el desciframiento?"
     },
     {
-      Prompt : "What is epigraphy? How is the language written?",
+      Prompt : "How is the language written?",
       SpanishPrompt: "¿Qué es la epigrafía? ¿Cómo es el lenguaje escrito?"
     }
   ]
 };
 
 var day_keepers = {
-  PageTitle : "Some people still track time and make decisions according to the ancient calendar",
-  PageTitleSpanish : "Algunas personas todavía controlar el tiempo y tomar decisiones de acuerdo con el antiguo calendario",
+  PageTitle : "Learn more about daykeepers",
+  PageTitleSpanish : "",
   MediaFolder : "day_keepers",
   Videos : [
     {
-      Prompt : "Why keep track of the old calendar?",
+      Prompt : "What is a daykeeper?",
       SpanishPrompt: "¿Por qué hacer un seguimiento del calendario viejo?"
     },
     {
-      Prompt : "How are divination and the calendar related?",
+      Prompt : "How important is your birthday?",
       SpanishPrompt: "¿Cómo están relacionados con la adivinación y el calendario?"
     },
     {
-      Prompt : "What are the daykeepers duties?",
+      Prompt : "How is the calendar used for divination?",
       SpanishPrompt: "¿Cuáles son los deberes contadores de los días?"
     },
     {
-      Prompt : "How is the old calendar used today?",
+      Prompt : "What are the meanings of the days?",
       SpanishPrompt: "¿Cómo es el calendario antiguo utilizado hoy en día?"
     }
   ]
 };
 
 var sites_today = {
-  PageTitle : "There are many reasons to investigate and preserve ancient Maya sites",
-  PageTitleSpanish : "Hay muchos motivos de investigar y conservar sitios mayas antiguos",
+  PageTitle : "Learn more about archaeological sites",
+  PageTitleSpanish : "",
   MediaFolder : "sites_today",
   Videos : [
     {
@@ -75,27 +74,27 @@ var sites_today = {
       SpanishPrompt: "¿Cómo rayos láser ayudarle a encontrar sitios por descubrir?",
     },
     {
-      Prompt : "What was a Maya city like when people still lived there?",
-      SpanishPrompt: "Lo que era una ciudad Maya como cuando las personas viven aún?"
+      Prompt : "What were these cities like when people lived there?",
+      SpanishPrompt: "¿Cuáles eran estas ciudades como cuando la gente vivía allí?"
     },
     {
       Prompt : "Why were Maya cities abandoned?",
       SpanishPrompt: "¿Por qué fueron abandonadas las ciudades mayas?"
     },
     {
-      Prompt : "Why do we preserve and visit Maya sites today?",
+      Prompt : "Why do we preserve and visit Maya sites?",
       SpanishPrompt: "¿Por qué conservar y visitar sitios mayas de hoy?"
     }
   ]
 };
 
 var ballgame = {
-  PageTitle : "The first team sport in human history was a game of life or death",
-  PageTitleSpanish : "El deporte de equipo por primera vez en la historia humana fue un juego de vida o muerte",
+  PageTitle : "Learn more about the ball game",
+  PageTitleSpanish : "",
   MediaFolder : "ballgame",
   Videos : [
     {
-      Prompt : "Why and how did the Maya play the game?",
+      Prompt : "How did the Maya play this game?",
       SpanishPrompt: "¿Por qué y cómo los mayas jugar el juego?"
   },
     {
@@ -103,85 +102,83 @@ var ballgame = {
       SpanishPrompt: "¿La gente todavía juegan hoy en día?"
     },
     {
-      Prompt : "How did they make the balls?",
+      Prompt : "How were the balls made?",
       SpanishPrompt: "¿Cómo se hacen las bolas?"
     },
     {
-      Prompt : "What do the patterns mean?",
+      Prompt : "Who were the Hero Twins?",
       SpanishPrompt: "¿Quiénes fueron los héroes gemelos?"
     }
   ]
 };
 
-/* !! MISSING CONTENT !! */
 var weaving = {
-  PageTitle : "Weaving has been important to the Maya since ancient times",
-  PageTitleSpanish : "Weaving ha sido importante para los mayas desde tiempos antiguos",
+  PageTitle : "Learn more about weaving",
+  PageTitleSpanish : "",
   MediaFolder : "weaving",
   Videos : [
     {
-      Prompt : "How do Maya women learn to weave?",
+      Prompt : "How do people learn to weave?",
       SpanishPrompt: "¿Cómo las mujeres mayas aprender a tejer?"
   },
     {
-      Prompt : "What connections exist to ancient Maya weaving?",
+      Prompt : "How old are the patterns and techniques?",
       SpanishPrompt: "¿Qué conexiones existen para los antiguos mayas tejen?"
     },
     {
-      Prompt : "How do designs reflect Maya world views?",
+      Prompt : "What do the patterns mean?",
       SpanishPrompt: "¿Cómo diseños reflejan la visión maya del mundo?"
     },
     {
-      Prompt : "Why is it important to the Maya today?",
+      Prompt : "Why is weaving still important?",
       SpanishPrompt: "¿Por qué es importante para los mayas hoy?"
     }
   ]
 };
 
-/* !! MISSING CONTENT !! */
 var agriculture = {
-  PageTitle : "",
+  PageTitle : "Learn more about agriculture",
   PageTitleSpanish : "",
   MediaFolder : "agriculture",
   Videos : [
     {
-      Prompt : "What was life like outside of a city center?",
+      Prompt : "What was life like outside of the city centers?",
       SpanishPrompt: "¿Qué era la vida fuera de un centro de la ciudad?"
   },
     {
-      Prompt : "What do we know about ancient Maya markets?",
+      Prompt : "What do we know about Maya markets?",
       SpanishPrompt: "¿Qué sabemos acerca de los mercados antiguos mayas?"
     },
     {
-      Prompt : "How many people lived in the cities and how did the farmers feed them?",
+      Prompt : "What was ancient Maya agriculture like?",
       SpanishPrompt: "¿Cuántas personas vivían en las ciudades y cómo los agricultores a alimentar?"
     },
     {
-      Prompt : "Does anyone today farm like they did in the classic period?",
+      Prompt : "How did the Maya change their environment?",
       SpanishPrompt: "¿Tiene granja alguien hoy como lo hicieron en el período clásico?"
     }
   ]
 };
 
 var human_remains = {
-  PageTitle : "Studying human remains tells us about individuals and populations",
-  PageTitleSpanish : "El estudio de los restos humanos nos habla de los individuos y de las poblaciones",
+  PageTitle : "Learn more about human remains",
+  PageTitleSpanish : "",
   MediaFolder : "human_remains",
   Videos : [
     {
-      Prompt : "What do we learn by studying human remains?",
+      Prompt : "What do bones reveal about a society?",
       SpanishPrompt: "¿Qué aprendemos mediante el estudio de los restos humanos?"
   },
     {
-      Prompt : "Where are all the bodies?",
+      Prompt : "How did the Maya bury their dead?",
       SpanishPrompt: "¿Dónde están los cuerpos?"
     },
     {
-      Prompt : "What burial practices did the Maya use?",
+      Prompt : "What’s it like to discover a tomb?",
       SpanishPrompt: "¿Qué prácticas funerarias usó el Maya?"
     },
     {
-      Prompt : "What’s it like to discover a tomb?",
+      Prompt : "What do bones reveal about diet?",
       SpanishPrompt: "¿Qué se siente al descubrir una tumba?"
     }
   ]
