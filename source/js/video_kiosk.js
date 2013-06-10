@@ -59,7 +59,8 @@ var maya_player = function(videoPlayer) {
 var restartKiosk = function(videoPlayer) {
   $('.hidden').fadeOut(500, function() {
     videoPlayer.pause();
-    videoPlayer.currentTime('0'); // Be kind, rewind
-    $('#video-options').fadeIn('fast');
+    $('#video-options').fadeIn('fast', function() {
+      videoPlayer.currentTime('0'); // Be kind, rewind
+    });
   });
 }
