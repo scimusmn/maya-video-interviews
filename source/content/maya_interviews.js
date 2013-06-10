@@ -14,28 +14,34 @@
  * - weaving
  * - agriculture
  * - human_remains
+ *
+ * INCOMPLETE AS OF 6/10:
+ * - weaving (missing Spanish title only)
+ * - daykeepers
+ * - human remains
+ * - agriculture
  */
 
 var glyph_decipher = {
   PageTitle : "Learn more about decipherment",
-  PageTitleSpanish : "",
+  PageTitleSpanish : "Aprende más sobre desciframiento",
   MediaFolder : "glyph_decipher",
   Videos : [
     {
-      Prompt : "What is the value of learning to read the glyphs?",
-      SpanishPrompt: "¿Cuál es el valor de aprender a leer los glifos?"
+      Prompt : "Why is learning the glyphs important to scholars?",
+      SpanishPrompt: "¿Por qué es importante para los académicos aprender sobre los glifos?"
     },
     {
-      Prompt : "Why is learning the glyphs important to the modern Maya?",
-      SpanishPrompt: "¿Por qué es el aprendizaje de los glifos importantes para los mayas modernos?"
+      Prompt : "Why is learning the glyphs important to Maya people?",
+      SpanishPrompt: "¿Por qué es importante que la gente maya aprenda los glifos?"
     },
     {
       Prompt : "Is there a connection between language and identity?",
-      SpanishPrompt: "¿Existe alguna relación entre el lenguaje y la identidad?"
+      SpanishPrompt: "¿Existe una conexión entre el lenguaje y la identidad?"
     },
     {
       Prompt : "How is the language written?",
-      SpanishPrompt: "¿Cómo se escribe el idioma?"
+      SpanishPrompt: "¿Cómo se escribe el lenguaje?"
     }
   ]
 };
@@ -66,48 +72,48 @@ var day_keepers = {
 
 var sites_today = {
   PageTitle : "Learn more about archaeological sites",
-  PageTitleSpanish : "",
+  PageTitleSpanish : "Aprende más sobre los sitios arqueológicos",
   MediaFolder : "sites_today",
   Videos : [
     {
       Prompt : "How do lasers help you find undiscovered sites?",
-      SpanishPrompt: "¿Cómo rayos láser ayudarle a encontrar sitios por descubrir?",
+      SpanishPrompt: "¿Cómo ayudan los láseres a encontrar sitios que no han sido descubiertos?",
     },
     {
-      Prompt : "What were these cities like when people lived there?",
-      SpanishPrompt: "¿Cuáles eran estas ciudades como cuando la gente vivía allí?"
+      Prompt : "What were Maya cities like when people lived in them?",
+      SpanishPrompt: "¿Cómo eran las ciudades mayas cuando la gente vivía en ellas?"
     },
     {
-      Prompt : "Why were Maya cities abandoned?",
-      SpanishPrompt: "¿Por qué fueron abandonadas las ciudades mayas?"
+      Prompt : "Why were some Maya cities abandoned?",
+      SpanishPrompt: "¿Por qué fueron abandonadas algunas de las ciudades mayas?"
     },
     {
       Prompt : "Why do we preserve and visit Maya sites?",
-      SpanishPrompt: "¿Por qué conservar y visitar sitios mayas de hoy?"
+      SpanishPrompt: "¿Por qué debemos preservar los sitios mayas?"
     }
   ]
 };
 
 var ballgame = {
   PageTitle : "Learn more about the ball game",
-  PageTitleSpanish : "",
+  PageTitleSpanish : "Aprende más sobre el juego de pelota",
   MediaFolder : "ballgame",
   Videos : [
     {
       Prompt : "How did the Maya play this game?",
-      SpanishPrompt: "¿Por qué y cómo los mayas jugar el juego?"
+      SpanishPrompt: "¿Cómo jugaron los mayas este juego?"
   },
     {
       Prompt : "Do people still play today?",
-      SpanishPrompt: "¿La gente todavía juegan hoy en día?"
+      SpanishPrompt: "¿Todavía la gente lo juega?"
     },
     {
       Prompt : "How were the balls made?",
-      SpanishPrompt: "¿Cómo se hacen las bolas?"
+      SpanishPrompt: "¿Cómo se hicieron las pelotas?"
     },
     {
       Prompt : "Who were the Hero Twins?",
-      SpanishPrompt: "¿Quiénes fueron los héroes gemelos?"
+      SpanishPrompt: "¿Quiénes son los Héroes Gemelos?"
     }
   ]
 };
@@ -119,19 +125,19 @@ var weaving = {
   Videos : [
     {
       Prompt : "How do people learn to weave?",
-      SpanishPrompt: "¿Cómo las mujeres mayas aprender a tejer?"
+      SpanishPrompt: "¿Cómo aprende la gente a tejer?"
   },
     {
       Prompt : "How old are the patterns and techniques?",
-      SpanishPrompt: "¿Qué conexiones existen para los antiguos mayas tejen?"
+      SpanishPrompt: "¿Qué tan antiguos son los patrones y las técnicas de tejido?"
     },
     {
       Prompt : "What do the patterns mean?",
-      SpanishPrompt: "¿Cómo diseños reflejan la visión maya del mundo?"
+      SpanishPrompt: "¿Qué significado tienen los patrones?"
     },
     {
       Prompt : "Why is weaving still important?",
-      SpanishPrompt: "¿Por qué es importante para los mayas hoy?"
+      SpanishPrompt: "¿Por qué todavía el tejido es importante?"
     }
   ]
 };
