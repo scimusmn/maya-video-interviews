@@ -34,7 +34,7 @@ body {
 }
 .video-button img {
   position: relative;
-  top: 20px;
+  top: 17px;
   left: 15px;
 }
 .video-prompts {
@@ -57,11 +57,11 @@ h3, h4 {
   font-weight: normal;
 }
 h3 {
-  font-size: 17px;
+  font-size: 22px;
 }
 h4 {
   font-style: italic;
-  font-size: 16px;
+  font-size: 18px;
 }
 #back {
   width: 164px;
@@ -225,4 +225,27 @@ body.human_remains #back {
   background: #39322f;
   color: #efe9e5;
   box-shadow: none;
+}
+
+/**
+ * Text size adjustments
+ * Some of these have longer titles than others,
+ * but the titles should always be as big as possible.
+ *
+ * The Spanish titles should always appear inline horizontally.
+*/
+body.sites_today h3,
+body.glyph_decipher h3 {
+  font-size: 18px;
+  height: 60px;
+}
+body.sites_today h4,
+body.glyph_decipher h4 {
+  font-size: 16px;
+}
+body.weaving h3 {
+  font-size: 19px;
+}
+body.weaving h4 {
+  font-size: 17px;
 }
