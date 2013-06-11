@@ -10,6 +10,18 @@ function video_kiosk() {
       // Path is relative to the kiosk page
       videoPath = '../assets/videos/';
 
+  // Unbind video.js default behavior of rewinding the video when it ends
+  // We're providing our own "ended" event.
+  videoPlayer.removeEvent('ended', videoPlayer.onEnded);
+  videoPlayer.removeEvent('ended', function() {
+    if (this.options.loop) {
+      this.currentTime(0);
+      this.play();
+    } else {
+      this.pause();
+    }
+  });
+
   // Initialize the videojs plugin.
   videoPlayer.ready(function() {
 
@@ -57,7 +69,7 @@ var maya_player = function(videoPlayer) {
  * Pause and rewind the video, return to the start page
  */
 var restartKiosk = function(videoPlayer) {
-  $('.hidden').fadeOut(500, function() {
+  $('.hidden').fadeOut('fast', function() {
     videoPlayer.pause();
     $('#video-options').fadeIn('fast', function() {
       videoPlayer.currentTime('0'); // Be kind, rewind
