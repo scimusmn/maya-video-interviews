@@ -1,6 +1,6 @@
-# Maya Video Interviews 
+# Maya Video Interviews
 
-## Description 
+## Description
 Template and HTML5 video playback for interview question (IQ) kiosks in the Maya exhibit.
 
 ## Install
