@@ -14,9 +14,6 @@
  * - weaving
  * - agriculture
  * - human_remains
- *
- * INCOMPLETE (6/17)
- * - Missing Spanish title for weaving
  */
 
 var glyph_decipher = {
