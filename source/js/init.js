@@ -31,8 +31,9 @@ var kiosk_init = function(compile) {
         success: function (source) {
           var template = Handlebars.compile(source);
           $('#container').html(template(component));
-          // Then initialize video functionality
-          video_kiosk();
+          // Then initialize video functionality after half a second
+          // The delay prevents people from starting a video when exiting the screensaver
+          setTimeout(video_kiosk, 300);
         }
       });
 
@@ -43,7 +44,7 @@ var kiosk_init = function(compile) {
 
       // Output markup into container div, then start video functionality
       $('#container').html(html);
-      video_kiosk();
+      setTimeout(video_kiosk, 300);
 
     }
 
