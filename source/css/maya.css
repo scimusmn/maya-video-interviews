@@ -229,21 +229,24 @@ body.human_remains #back {
  *
  * The Spanish titles should always appear inline horizontally.
 */
+body.weaving h3,
 body.sites_today h3,
 body.glyph_decipher h3 {
   font-size: 18px;
   height: 60px;
 }
+body.weaving h3 {
+  height: auto;
+}
+body.weaving h4,
 body.sites_today h4,
 body.glyph_decipher h4 {
   font-size: 16px;
 }
-body.agriculture h3,
-body.weaving h3 {
+body.agriculture h3 {
   font-size: 19px;
 }
-body.agriculture h4,
-body.weaving h4 {
+body.agriculture h4 {
   font-size: 17px;
 }
 body.day_keepers h3 {
