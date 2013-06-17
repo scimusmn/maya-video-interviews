@@ -7,9 +7,11 @@ body {
   height: 768px;
   width: 1366px;
 }
+#video-options {
+  width: 1268px;
+}
 #video-options,
 #videoPlayer {
-  width: 1268px;
   margin: 40px auto 0;
 }
 .hidden {
