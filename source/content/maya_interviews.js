@@ -138,24 +138,24 @@ var weaving = {
 
 var agriculture = {
   PageTitle : "Learn more about agriculture",
-  PageTitleSpanish : "",
+  PageTitleSpanish : "Aprende más sobre agricultura",
   MediaFolder : "agriculture",
   Videos : [
     {
-      Prompt : "What was life like outside of the city centers?",
-      SpanishPrompt: "¿Qué era la vida fuera de un centro de la ciudad?"
+      Prompt : "What was life like outside of city centers?",
+      SpanishPrompt: "¿Cómo era la vida por fuera de los centros de las ciudades?"
   },
     {
       Prompt : "What do we know about Maya markets?",
-      SpanishPrompt: "¿Qué sabemos acerca de los mercados antiguos mayas?"
+      SpanishPrompt: "¿Qué sabemos de los mercados mayas?"
     },
     {
-      Prompt : "What was ancient Maya agriculture like?",
-      SpanishPrompt: "¿Cuántas personas vivían en las ciudades y cómo los agricultores a alimentar?"
+      Prompt : "How did the ancient Maya farm?",
+      SpanishPrompt: "¿Cómo cultivaban los antiguos mayas?"
     },
     {
       Prompt : "How did the Maya change their environment?",
-      SpanishPrompt: "¿Tiene granja alguien hoy como lo hicieron en el período clásico?"
+      SpanishPrompt: "¿Cómo cambiaron los mayas su medioambiente?"
     }
   ]
 };
