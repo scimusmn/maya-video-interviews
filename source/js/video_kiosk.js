@@ -4,10 +4,9 @@
 */
 function video_kiosk() {
 
-  // Set some variables, we'll use these a bunch
   var $videoOption = $('.video-button'),
       videoPlayer = _V_('videoPlayer'),
-      // Path is relative to the kiosk page
+      // Path is relative to index.html
       videoPath = '../assets/videos/';
 
   // Unbind video.js default behavior of rewinding the video when it ends
