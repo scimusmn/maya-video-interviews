@@ -168,24 +168,24 @@ var agriculture = {
 
 var human_remains = {
   PageTitle : "Learn more about human remains",
-  PageTitleSpanish : "",
+  PageTitleSpanish : "Aprende más sobre los restos mortales",
   MediaFolder : "human_remains",
   Videos : [
     {
       Prompt : "What do bones reveal about a society?",
-      SpanishPrompt: "¿Qué aprendemos mediante el estudio de los restos humanos?"
-  },
+      SpanishPrompt: "¿Qué revelan los huesos sobre la sociedad?"
+    },
     {
       Prompt : "How did the Maya bury their dead?",
-      SpanishPrompt: "¿Dónde están los cuerpos?"
+      SpanishPrompt: "¿Cómo enterraban los mayas a sus muertos?"
     },
     {
       Prompt : "What’s it like to discover a tomb?",
-      SpanishPrompt: "¿Qué prácticas funerarias usó el Maya?"
+      SpanishPrompt: "¿Qué se siente al descubrir una tumba?"
     },
     {
       Prompt : "What do bones reveal about diet?",
-      SpanishPrompt: "¿Qué se siente al descubrir una tumba?"
+      SpanishPrompt: "¿Qué revelan los huesos acerca de la dieta?"
     }
   ]
 };
