@@ -15,10 +15,8 @@
  * - agriculture
  * - human_remains
  *
- * INCOMPLETE AS OF 6/10:
- * - weaving (missing Spanish title only)
+ * INCOMPLETE AS OF 6/17:
  * - daykeepers
- * - human remains
  * - agriculture
  */
 
@@ -120,7 +118,7 @@ var ballgame = {
 
 var weaving = {
   PageTitle : "Learn more about weaving",
-  PageTitleSpanish : "",
+  PageTitleSpanish : "¿Cómo aprende la gente a tejer?",
   MediaFolder : "weaving",
   Videos : [
     {
