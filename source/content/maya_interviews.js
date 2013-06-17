@@ -117,7 +117,7 @@ var ballgame = {
 
 var weaving = {
   PageTitle : "Learn more about weaving",
-  PageTitleSpanish : "",
+  PageTitleSpanish : "Aprende más sobre cómo se tejía",
   MediaFolder : "weaving",
   Videos : [
     {
