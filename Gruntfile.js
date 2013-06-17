@@ -22,7 +22,7 @@ module.exports = function(grunt) {
     cssmin: {
       compress: {
         files: {
-          'build/css/maya_interviews.min.css': ['source/css/maya.css', 'source/css/video-js.min.css']
+          'build/css/maya_interviews.min.css': ['source/css/build.css', 'source/css/maya.css', 'source/css/video-js.min.css']
         }
       }
     },

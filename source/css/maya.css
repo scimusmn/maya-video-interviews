@@ -1,18 +1,9 @@
-* { cursor: url(../../assets/template/img/cursor.png), none !important }
-
 body {
   padding: 0;
   margin: 0;
   font-family: 'Candara';
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
 }
 #container {
-  overflow: hidden;
   height: 768px;
   width: 1366px;
 }
