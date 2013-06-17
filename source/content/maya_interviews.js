@@ -14,10 +14,6 @@
  * - weaving
  * - agriculture
  * - human_remains
- *
- * INCOMPLETE AS OF 6/17:
- * - daykeepers
- * - agriculture
  */
 
 var glyph_decipher = {
@@ -46,24 +42,24 @@ var glyph_decipher = {
 
 var day_keepers = {
   PageTitle : "Learn more about daykeepers",
-  PageTitleSpanish : "",
+  PageTitleSpanish : "Aprende más sobre los sacerdotes adivinos mayas",
   MediaFolder : "day_keepers",
   Videos : [
     {
       Prompt : "What is a daykeeper?",
-      SpanishPrompt: "¿Por qué hacer un seguimiento del calendario viejo?"
+      SpanishPrompt: "¿Quiénes son los sacerdotes adivinos mayas?"
     },
     {
       Prompt : "How important is your birthday?",
-      SpanishPrompt: "¿Cómo están relacionados con la adivinación y el calendario?"
+      SpanishPrompt: "¿Por qué es tan importante el día en que naces?"
     },
     {
       Prompt : "How is the calendar used for divination?",
-      SpanishPrompt: "¿Cuáles son los deberes contadores de los días?"
+      SpanishPrompt: "¿Por qué está el calendario vinculado con la adivinación?"
     },
     {
       Prompt : "What are the meanings of the days?",
-      SpanishPrompt: "¿Cómo es el calendario antiguo utilizado hoy en día?"
+      SpanishPrompt: "¿Cuál es el significado de los días?"
     }
   ]
 };
