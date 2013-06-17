@@ -14,6 +14,9 @@
  * - weaving
  * - agriculture
  * - human_remains
+ *
+ * INCOMPLETE (6/17)
+ * - Missing Spanish title for weaving
  */
 
 var glyph_decipher = {
@@ -114,7 +117,7 @@ var ballgame = {
 
 var weaving = {
   PageTitle : "Learn more about weaving",
-  PageTitleSpanish : "¿Cómo aprende la gente a tejer?",
+  PageTitleSpanish : "",
   MediaFolder : "weaving",
   Videos : [
     {
