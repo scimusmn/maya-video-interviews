@@ -238,10 +238,12 @@ body.glyph_decipher h3 {
 body.weaving h3 {
   height: auto;
 }
-body.weaving h4,
 body.sites_today h4,
 body.glyph_decipher h4 {
   font-size: 16px;
+}
+body.weaving h4 {
+  font-size: 15px;
 }
 body.agriculture h3 {
   font-size: 19px;
