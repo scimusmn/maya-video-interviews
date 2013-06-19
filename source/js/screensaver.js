@@ -49,15 +49,21 @@ function timerIncrement() {
     videoPlayer.src(screensaver).size(1366, 768).play();
     console.log('SCREENSAVERED!');
 
-    wakeUp(); // Watch for mousemove, which will reset the page
+    wakeUp(videoPlayer); // Watch for mousemove, or an error, which will reload the page
+
   }
 }
 
 /**
  * Clear screensaver
  */
-function wakeUp() {
+function wakeUp(videoPlayer) {
+  // Refresh on mousemove
   $('body').mousemove(function (e) {
-    location.reload(); // Refresh the page
+    location.reload();
+  });
+  // Refresh on error
+  videoPlayer.addEvent('error', function(){
+    location.reload();
   });
 }
