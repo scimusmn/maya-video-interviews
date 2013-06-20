@@ -47,7 +47,7 @@ Test that your Grunt install works by running `grunt` and checking for errors.
 Once your development environment is set up, you're ready to compile a kiosk from the templates and the appropriate source material.
 
 ### Optimize images 
-The image optimizer ([Smushit](http://www.smushit.com/ysmush.it/)) isn't part of the default Grunt build process since it takes awhile to run and is only useful if images have been update. However, if an image has been changed or added, run the optimizer with this command: `grunt smushit`.
+The image optimizer ([Smushit](http://www.smushit.com/ysmush.it/)) isn't part of the default Grunt build process since it takes awhile to run and is only useful if images have been updated. However, if an image has been changed or added, run the optimizer with this command: `grunt smushit`.
 
 ### Building the source material
 Kiosks require several dynamic elements (images and video) depending on their content. These dynamic elements are specific to the IQ kiosks in the Maya exhibit. Here is a list of the appropriate kiosk names for these templates, with links to their corresponding media entries in Atrium.
@@ -79,21 +79,21 @@ Each story should get a MP4 video file sized to 1200px wide by 520px tall. These
     assets/videos/kiosk_name/video#.mp4
 
 #### Screensaver file
-Each kiosk should get one screensaver MP4 video file. This should be placed in:
+Each kiosk should get one screensaver MP4 video file sized to 1366px wide by 768px tall (fullscreen on the exhibit PCs). This should be placed in:
 
     assets/videos/kiosk_name/screensaver.mp4
 
 ### Compile
-Once all of the source files are in place, you are ready to compile the kiosk files. This will precompile the handlebars templates, run the default Grunt tasks, create a config file, and copy the asset folders containing the kiosk-specifc images and videos.
+Once all of the source files are in place, you are ready to compile the kiosk files. This will precompile the handlebars templates, run the default Grunt tasks, create a config file, and export the whole package onto your Desktop.
 
 Run install.sh with the component machine name as the argument, like this:
 
     $ ./install.sh kiosk_name
 
-This will create a folder on your desktop, which should be copied onto the Desktop of the exhibit kiosk PC.
+This will create a folder on your Desktop, which should be copied onto the Desktop of the exhibit kiosk PC.
 
 ## Note
-The compiled files will not work in your normal web browser using the file protocol. To run them you need to launch Chrome with the --allow-file-access-from-files flag.
+The compiled files will not work in your normal web browser using the file protocol. To run them, you need to launch Chrome with the `--allow-file-access-from-files` flag.
 This allows the application to read the config file. See http://www.chromium.org/developers/how-tos/run-chromium-with-flags
 
 Alternatively, you could run the compiled files on a local webserver (http protocol).
