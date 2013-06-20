@@ -80,7 +80,7 @@ Each kiosk should get one screensaver MP4 video file sized to 1366px wide by 768
 
     assets/videos/kiosk_name/screensaver.mp4
 
-### Optimize images 
+#### Optimize images 
 The image optimizer ([Smushit](http://www.smushit.com/ysmush.it/)) isn't part of the default Grunt build process since it takes awhile to run and is only useful if images have been updated. However, if an image has been changed or added, run the optimizer with this command: `grunt smushit`.
 
 ### Compile
