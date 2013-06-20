@@ -1,3 +1,10 @@
+// Error handler
+$(document).ready(function() {
+  window.onerror = function() {
+    location.reload();
+  }
+});
+
 /**
  * Initialize the kiosk start page.
  * - Load and read the config file.
