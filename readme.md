@@ -20,7 +20,7 @@ To compile the final content that will go on the exhibit kiosks you will need to
 Put those last two export commands in your bash or shell profile if you want them to work all the time.
 
 #### Install [Grunt](http://http://gruntjs.com/getting-started)
-Grunt is a task runner that minifies and concatenates JavaScript and CSS files. It can optionally be used to optimize images.
+Grunt is a task runner we use here to minify and concatenate JavaScript and CSS files after making any code changes. It can optionally be used here to optimize images.
 
 Uninstall any previous versions of Grunt and then install the Grunt command line interface.
 
@@ -41,8 +41,13 @@ Handlebars is a templating engine that allows us to write dynamic HTML5.
     
 Since this project has already been configured with a `package.json` and a `Gruntfile`, you can quickly install all the dependencies for the project's Grunt tasks by running `npm install` from the project directory.
 
+Test that your Grunt install works by running `grunt` and checking for errors.
+
 ## Compiling a kiosk
 Once your development environment is set up, you're ready to compile a kiosk from the templates and the appropriate source material.
+
+### Optimize images 
+The image optimizer ([Smushit](http://www.smushit.com/ysmush.it/)) isn't part of the default Grunt build process since it takes awhile to run and is only useful if images have been update. However, if an image has been changed or added, run the optimizer with this command: `grunt smushit`.
 
 ### Building the source material
 Kiosks require several dynamic elements (images and video) depending on their content. These dynamic elements are specific to the IQ kiosks in the Maya exhibit. Here is a list of the appropriate kiosk names for these templates, with links to their corresponding media entries in Atrium.
@@ -58,14 +63,18 @@ Kiosks require several dynamic elements (images and video) depending on their co
 You will use these kiosk names to create the source paths below.
 
 #### Video selection buttons
-Each video needs a selection button image. These should be placed in:
+Each video needs a selection button image. Each image should be 227px wide by 372px tall and in the PNG format with a transparent background.
+
+There's a PSD for creating these on the SMM exhibit projects server: `/Volumes/ExhibitProjects/Projects/Maya/Multimedia/Templates/Interview questions/PSD/btn_images.psd`
+
+These should be placed in:
 
     assets/images/kiosk_name/video#.png
 
 Start numbering with zero, not 1 (video0.png, etc).
 
 #### Video files
-Each story should get a MP4 video file. These should be placed in:
+Each story should get a MP4 video file sized to 1200px wide by 520px tall. These should be placed in:
 
     assets/videos/kiosk_name/video#.mp4
 
@@ -75,7 +84,7 @@ Each kiosk should get one screensaver MP4 video file. This should be placed in:
     assets/videos/kiosk_name/screensaver.mp4
 
 ### Compile
-Once all of the source files are in place, you are ready to compile the kiosk files. This will precompile the handlebars templates, run all the Grunt tasks, create a config file, and create folders for the kiosk-specific video and image files.
+Once all of the source files are in place, you are ready to compile the kiosk files. This will precompile the handlebars templates, run the default Grunt tasks, create a config file, and copy the asset folders containing the kiosk-specifc images and videos.
 
 Run install.sh with the component machine name as the argument, like this:
 
@@ -89,4 +98,4 @@ This allows the application to read the config file. See http://www.chromium.org
 
 Alternatively, you could run the compiled files on a local webserver (http protocol).
 
-On the kiosk, this is handled by running the these files within the [Stele system](https://github.com/scimusmn/stele). 
+On the kiosk, this is handled by running the these files within the [Stele system](https://github.com/scimusmn/stele).
