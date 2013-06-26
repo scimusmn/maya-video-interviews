@@ -22,6 +22,11 @@ echo "Writing config file..."
 mkdir ~/Desktop/maya_IQ_$1/config
 touch ~/Desktop/maya_IQ_$1/config/config.json
 echo "{ \"component_name\": \"$1\" }" > ~/Desktop/maya_IQ_$1/config/config.json
+echo
+
+echo "Writing background page..."
+sed -i "" "s/class/class=\"$1\"/g" ~/Desktop/maya_IQ_$1/build/background.html
+echo
 
 echo "[Done]"
 echo
