@@ -65,13 +65,10 @@ var maya_player = function(videoPlayer) {
 
 /**
  * Restart the kiosk:
- * Pause and rewind the video, return to the start page
+ * Fade out the video screen, then reload the page.
  */
 var restartKiosk = function(videoPlayer) {
   $('.hidden').fadeOut('fast', function() {
-    videoPlayer.pause();
-    $('#video-options').fadeIn('fast', function() {
-      videoPlayer.currentTime('0'); // Be kind, rewind
-    });
+    location.reload();
   });
 }
